@@ -1,0 +1,119 @@
+
+****** Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2023.1 (64-bit)
+  **** SW Build 3854077 on May  4 2023
+  **** IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+  **** SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source /proj/octfpga-PG0/tools/Xilinx/Vitis_HLS/2023.1/scripts/vitis_hls/hls.tcl -notrace
+INFO: [HLS 200-10] Running '/proj/octfpga-PG0/tools/Xilinx/Vitis_HLS/2023.1/bin/unwrapped/lnx64.o/vitis_hls'
+INFO: [HLS 200-10] For user 'sohamb1' on host 'pc159.cloudlab.umass.edu' (Linux_x86_64 version 5.15.0-187-generic) on Thu Sep 24 17:09:38 MDT 2026
+INFO: [HLS 200-10] On os Ubuntu 22.04.2 LTS
+INFO: [HLS 200-10] In directory '/users/sohamb1/qec_project/_x/qec_decoder/qec_decoder'
+Sourcing Tcl script 'qec_decoder.tcl'
+INFO: [HLS 200-1510] Running: open_project qec_decoder 
+INFO: [HLS 200-10] Creating and opening project '/users/sohamb1/qec_project/_x/qec_decoder/qec_decoder/qec_decoder'.
+INFO: [HLS 200-1510] Running: set_top qec_decoder 
+INFO: [HLS 200-1510] Running: add_files /users/sohamb1/qec_project/src/kernel/qec_decoder.cpp 
+INFO: [HLS 200-10] Adding design file '/users/sohamb1/qec_project/src/kernel/qec_decoder.cpp' to the project
+INFO: [HLS 200-1510] Running: open_solution -flow_target vitis solution 
+INFO: [HLS 200-10] Creating and opening solution '/users/sohamb1/qec_project/_x/qec_decoder/qec_decoder/qec_decoder/solution'.
+INFO: [HLS 200-1505] Using flow_target 'vitis'
+Resolution: For help on HLS 200-1505 see www.xilinx.com/cgi-bin/docs/rdoc?v=2023.1;t=hls+guidance;d=200-1505.html
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_interface -m_axi_latency=64
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_interface -m_axi_alignment_byte_size=64
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_interface -m_axi_max_widen_bitwidth=512
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_rtl -register_reset_num=3
+INFO: [HLS 200-1510] Running: set_part xcu280-fsvh2892-2L-e 
+INFO: [HLS 200-1611] Setting target device to 'xcu280-fsvh2892-2L-e'
+INFO: [HLS 200-1510] Running: create_clock -period 300.000000MHz -name default 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 3.333ns.
+INFO: [HLS 200-1510] Running: config_dataflow -strict_mode warning 
+INFO: [HLS 200-1510] Running: config_rtl -deadlock_detection sim 
+INFO: [HLS 200-1510] Running: config_interface -m_axi_conservative_mode=1 
+INFO: [HLS 200-1510] Running: config_interface -m_axi_addr64 
+INFO: [HLS 200-1510] Running: config_interface -m_axi_auto_max_ports=0 
+INFO: [HLS 200-1510] Running: config_export -format xo -ipname qec_decoder 
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0.06 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.07 seconds; current allocated memory: 1.056 GB.
+INFO: [HLS 200-10] Analyzing design file '/users/sohamb1/qec_project/src/kernel/qec_decoder.cpp' ... 
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 2.69 seconds. CPU system time: 0.71 seconds. Elapsed time: 4.15 seconds; current allocated memory: 1.058 GB.
+INFO: [HLS 200-777] Using interface defaults for 'Vitis' flow target.
+INFO: [HLS 200-1995] There were 174 instructions in the design after the 'Compile/Link' phase of compilation. See the Design Size Report for more details: /users/sohamb1/qec_project/_x/qec_decoder/qec_decoder/qec_decoder/solution/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 34 instructions in the design after the 'Unroll/Inline' phase of compilation. See the Design Size Report for more details: /users/sohamb1/qec_project/_x/qec_decoder/qec_decoder/qec_decoder/solution/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 32 instructions in the design after the 'Performance/Pipeline' phase of compilation. See the Design Size Report for more details: /users/sohamb1/qec_project/_x/qec_decoder/qec_decoder/qec_decoder/solution/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 43 instructions in the design after the 'Optimizations' phase of compilation. See the Design Size Report for more details: /users/sohamb1/qec_project/_x/qec_decoder/qec_decoder/qec_decoder/solution/syn/report/csynth_design_size.rpt
+WARNING: [HLS 214-386] A depth specification is required for MAXI interface port 'stream_in' for cosimulation. (/users/sohamb1/qec_project/src/kernel/qec_decoder.cpp:11:0)
+WARNING: [HLS 214-386] A depth specification is required for MAXI interface port 'stream_out' for cosimulation. (/users/sohamb1/qec_project/src/kernel/qec_decoder.cpp:11:0)
+INFO: [HLS 214-115] Multiple burst reads of variable length and bit width 32 in loop 'VITIS_LOOP_22_1'(/users/sohamb1/qec_project/src/kernel/qec_decoder.cpp:22:19) has been inferred on bundle 'gmem0'. These burst requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings. (/users/sohamb1/qec_project/src/kernel/qec_decoder.cpp:22:19)
+INFO: [HLS 214-115] Multiple burst writes of variable length and bit width 16 in loop 'VITIS_LOOP_22_1'(/users/sohamb1/qec_project/src/kernel/qec_decoder.cpp:22:19) has been inferred on bundle 'gmem1'. These burst requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings. (/users/sohamb1/qec_project/src/kernel/qec_decoder.cpp:22:19)
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 2.23 seconds. CPU system time: 0.59 seconds. Elapsed time: 7.54 seconds; current allocated memory: 1.060 GB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0 seconds; current allocated memory: 1.060 GB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0.01 seconds. CPU system time: 0 seconds. Elapsed time: 0.01 seconds; current allocated memory: 1.060 GB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0.01 seconds. CPU system time: 0 seconds. Elapsed time: 0 seconds; current allocated memory: 1.060 GB.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (/users/sohamb1/qec_project/src/kernel/qec_decoder.cpp:23:9) to (/users/sohamb1/qec_project/src/kernel/qec_decoder.cpp:22:19) in function 'qec_decoder'... converting 3 basic blocks.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0.01 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.03 seconds; current allocated memory: 1.081 GB.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0.01 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.02 seconds; current allocated memory: 1.071 GB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'qec_decoder' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'qec_decoder' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_22_1'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 143, loop 'VITIS_LOOP_22_1'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.6 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.63 seconds; current allocated memory: 1.073 GB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 1.48 seconds. CPU system time: 0 seconds. Elapsed time: 1.49 seconds; current allocated memory: 1.073 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'qec_decoder' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+WARNING: [RTGEN 206-101] Design contains AXI ports. Reset is fixed to synchronous and active low.
+INFO: [RTGEN 206-500] Setting interface mode on port 'qec_decoder/gmem0' to 'm_axi'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'qec_decoder/gmem1' to 'm_axi'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'qec_decoder/stream_in' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'qec_decoder/stream_out' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'qec_decoder/num_shots' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'qec_decoder' to 's_axilite & ap_ctrl_chain'.
+INFO: [RTGEN 206-100] Bundling port 'stream_in', 'stream_out', 'num_shots' and 'return' to AXI-Lite port control.
+INFO: [RTGEN 206-100] Finished creating RTL model for 'qec_decoder'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.23 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.25 seconds; current allocated memory: 1.076 GB.
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 0.73 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.76 seconds; current allocated memory: 1.081 GB.
+INFO: [HLS 200-1603] Design has inferred MAXI bursts and missed bursts, see Vitis HLS GUI synthesis summary report for detailed information.
+INFO: [HLS 200-111] Finished Updating report files: CPU user time: 0.54 seconds. CPU system time: 0.03 seconds. Elapsed time: 0.57 seconds; current allocated memory: 1.087 GB.
+INFO: [VHDL 208-304] Generating VHDL RTL for qec_decoder.
+INFO: [VLOG 209-307] Generating Verilog RTL for qec_decoder.
+INFO: [HLS 200-790] **** Loop Constraint Status: All loop constraints were satisfied.
+INFO: [HLS 200-789] **** Estimated Fmax: 411.00 MHz
+INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 8.63 seconds. CPU system time: 1.42 seconds. Elapsed time: 15.53 seconds; current allocated memory: 31.812 MB.
+INFO: [HLS 200-1510] Running: export_design 
+INFO: [IMPL 213-8] Exporting RTL as a Vivado IP.
+
+****** Vivado v2023.1 (64-bit)
+  **** SW Build 3865809 on Sun May  7 15:04:56 MDT 2023
+  **** IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+  **** SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source run_ippack.tcl -notrace
+ipx::create_core: Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 2089.230 ; gain = 125.992 ; free physical = 182999 ; free virtual = 196516
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/proj/octfpga-PG0/tools/Xilinx/Vivado/2023.1/data/ip'.
+Running package_xo -xo_path /users/sohamb1/qec_project/_x/qec_decoder/qec_decoder/qec_decoder/solution/impl/export.xo -kernel_name qec_decoder -kernel_xml /users/sohamb1/qec_project/_x/qec_decoder/qec_decoder/qec_decoder/solution/impl/ip/../kernel/kernel.xml -kernel_files /users/sohamb1/qec_project/src/kernel/qec_decoder.cpp -ip_directory /users/sohamb1/qec_project/_x/qec_decoder/qec_decoder/qec_decoder/solution/impl/ip/ip_unzip_dir -design_xml /users/sohamb1/qec_project/_x/qec_decoder/qec_decoder/qec_decoder/solution/.autopilot/db/qec_decoder.design.xml -debug_directory /users/sohamb1/qec_project/_x/qec_decoder/qec_decoder/qec_decoder/solution/.debug -hls_directory /users/sohamb1/qec_project/_x/qec_decoder/qec_decoder/qec_decoder/solution/impl/ip/hls_files
+INFO: [Common 17-206] Exiting Vivado at Thu Sep 24 17:10:15 2026...
+INFO: [HLS 200-802] Generated output file qec_decoder/solution/impl/export.xo
+INFO: [HLS 200-111] Finished Command export_design CPU user time: 14.11 seconds. CPU system time: 1.45 seconds. Elapsed time: 28.48 seconds; current allocated memory: 7.469 MB.
+INFO: [HLS 200-1510] Running: close_project 
+HLS completed successfully
+INFO: [HLS 200-112] Total CPU user time: 25.36 seconds. Total CPU system time: 3.52 seconds. Total elapsed time: 47.76 seconds; peak allocated memory: 1.094 GB.
+INFO: [Common 17-206] Exiting vitis_hls at Thu Sep 24 17:10:25 2026...
