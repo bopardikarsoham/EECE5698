@@ -1,0 +1,12 @@
+{
+  "code": "toy_rep",
+  "stim_task": "toy code-capacity repetition code",
+  "distance": 3,
+  "rounds": 1,
+  "p": null,
+  "shots": 4,
+  "num_detectors": 2,
+  "num_observables": 1,
+  "num_edges": 3,
+  "note": "all error patterns of weight <= 1; expected_pred.bin = true observable flips"
+}

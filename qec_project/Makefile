@@ -40,4 +40,37 @@ clean:
 	rm -rf $(BUILD_DIR) *.log *.jou .Xil _x
 	@echo "Cleaned build artifacts."
 
-.PHONY: all host kernel clean
+# 3. Software (CPU) version of the decoder - runs on any machine, no Xilinx tools.
+#    make sw        CFG=<case_dir>   decode a case with the C++ union-find decoder
+#    make score     CFG=<case_dir>   logical error rate vs truth and vs PyMatching
+#    make freeze    CFG=<case_dir>   copy a case into tests/cases/ as a regression test
+#    make check_all                  decode every case in tests/cases/ and compare
+#    make toy                        regenerate the toy cases in tests/cases/
+PY       ?= .venv/bin/python
+SW_CXX   ?= g++
+SW_FLAGS  = -std=c++17 -O2 -Wall -Wextra
+SW_BIN    = $(BUILD_DIR)/sw/golden
+CFG      ?= tests/cases/toy_rep_d3
+
+$(SW_BIN): $(SRC_DIR)/golden.cpp $(SRC_DIR)/uf_core.h
+	mkdir -p $(BUILD_DIR)/sw
+	$(SW_CXX) $(SW_FLAGS) $(SRC_DIR)/golden.cpp -o $(SW_BIN)
+
+golden: $(SW_BIN)
+
+sw: $(SW_BIN)
+	./$(SW_BIN) $(CFG)
+
+score:
+	$(PY) python/score.py $(CFG)
+
+freeze:
+	sh tests/freeze.sh $(CFG)
+
+check_all: $(SW_BIN)
+	sh tests/check_all.sh $(SW_BIN)
+
+toy:
+	$(PY) python/make_toy.py
+
+.PHONY: all host kernel clean golden sw score freeze check_all toy

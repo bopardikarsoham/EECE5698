@@ -1,0 +1,21 @@
+sweep: unsurf_z d=3  p=0.001  UF    100 (0.001000)  PM     94 (0.000940)      0.191 us/shot  invalid=0 cap=0
+sweep: unsurf_z d=3  p=0.003  UF    938 (0.009380)  PM    922 (0.009220)      0.529 us/shot  invalid=0 cap=0
+sweep: unsurf_z d=3  p=0.005  UF   2514 (0.025140)  PM   2433 (0.024330)      0.883 us/shot  invalid=0 cap=0
+sweep: unsurf_z d=3  p=0.01   UF   8429 (0.084290)  PM   8299 (0.082990)      1.831 us/shot  invalid=0 cap=0
+sweep: unsurf_z d=5  p=0.001  UF     14 (0.000140)  PM     11 (0.000110)      4.334 us/shot  invalid=0 cap=0
+sweep: unsurf_z d=5  p=0.003  UF    372 (0.003720)  PM    357 (0.003570)     11.764 us/shot  invalid=0 cap=0
+sweep: unsurf_z d=5  p=0.005  UF   1717 (0.017170)  PM   1607 (0.016070)     18.188 us/shot  invalid=0 cap=0
+sweep: unsurf_z d=5  p=0.01   UF  11822 (0.118220)  PM  10935 (0.109350)     33.964 us/shot  invalid=0 cap=0
+sweep: unsurf_z d=7  p=0.001  UF      1 (0.000010)  PM      2 (0.000020)     27.241 us/shot  invalid=0 cap=0
+sweep: unsurf_z d=7  p=0.003  UF    126 (0.001260)  PM    116 (0.001160)     60.713 us/shot  invalid=0 cap=0
+sweep: unsurf_z d=7  p=0.005  UF   1145 (0.011450)  PM    959 (0.009590)     84.637 us/shot  invalid=0 cap=0
+sweep: unsurf_z d=7  p=0.01   UF  15178 (0.151780)  PM  13134 (0.131340)    144.833 us/shot  invalid=0 cap=0
+sweep: unsurf_z d=9  p=0.001  UF      0 (0.000000)  PM      0 (0.000000)     90.828 us/shot  invalid=0 cap=0
+sweep: unsurf_z d=9  p=0.003  UF     43 (0.000430)  PM     29 (0.000290)    175.307 us/shot  invalid=0 cap=0
+sweep: unsurf_z d=9  p=0.005  UF    704 (0.007040)  PM    575 (0.005750)    242.985 us/shot  invalid=0 cap=0
+sweep: unsurf_z d=9  p=0.01   UF  19478 (0.194780)  PM  16485 (0.164850)    413.052 us/shot  invalid=0 cap=0
+sweep: unsurf_z d=11 p=0.001  UF      0 (0.000000)  PM      0 (0.000000)    216.169 us/shot  invalid=0 cap=0
+sweep: unsurf_z d=11 p=0.003  UF     10 (0.000100)  PM      7 (0.000070)    395.391 us/shot  invalid=0 cap=0
+sweep: unsurf_z d=11 p=0.005  UF    491 (0.004910)  PM    375 (0.003750)    557.014 us/shot  invalid=0 cap=0
+sweep: unsurf_z d=11 p=0.01   UF  23465 (0.234650)  PM  19421 (0.194210)    926.876 us/shot  invalid=0 cap=0
+sweep: wrote results/sweep_unsurf_z_d3-11.csv
