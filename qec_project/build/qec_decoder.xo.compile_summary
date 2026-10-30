@@ -1,0 +1,236 @@
+<ENTRY>
+{
+ "thisFile": "/users/sohamb1/qec_project/build/qec_decoder.xo.compile_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "Thu Sep 24 17:09:30 2026",
+ "timestampMillis": "1790291370919",
+ "buildStep": {
+  "cmdId": "ef80b911-d935-45c2-bd4c-d1581280c9a1",
+  "name": "v++",
+  "logFile": "/users/sohamb1/qec_project/_x/qec_decoder/qec_decoder.steps.log",
+  "commandLine": "/proj/octfpga-PG0/tools/Xilinx/Vitis/2023.1/bin/unwrapped/lnx64.o/v++  --vivado.prop \"run.__KERNEL__.{STEPS.SYNTH_DESIGN.ARGS.MORE OPTIONS}={-directive sdx_optimization_effort_high}\" --vivado.param project.writeIntermediateCheckpoints=1 --advanced.misc \"report=type report_utilization name synth_report_utilization_summary steps {synth_design} runs {__KERNEL__} options {}\" --advanced.misc \"report=type report_utilization name impl_report_utilization_init_design_summary steps {init_design} runs {impl_1} options {}\" --advanced.misc \"report=type report_timing_summary name impl_report_timing_summary_init_design_summary steps {init_design} runs {impl_1} options {-max_paths 10}\" --advanced.param \"compiler.reportFailfast=pre_opt_design {__KERNEL_NAMES__} post_opt_design {__OCL_TOP__} post_route_design {__SLR__}\" --advanced.param \"compiler.reportQorAssessment=pre_opt_design {} post_opt_design {} post_route_design {}\" --advanced.misc \"report=type report_io name impl_report_io_place_design_summary steps {place_design} runs {impl_1} options {}\" --advanced.misc \"report=type report_utilization name impl_report_utilization_place_design_summary steps {place_design} runs {impl_1} options {}\" --advanced.misc \"report=type report_control_sets name impl_report_control_sets_place_design_summary steps {place_design} runs {impl_1} options {-verbose}\" --advanced.misc \"report=type report_timing_summary name impl_report_timing_summary_place_design_summary steps {place_design} runs {impl_1} options {-max_paths 10}\" --advanced.misc \"report=type report_drc name impl_report_drc_route_design_summary steps {route_design} runs {impl_1} options {}\" --advanced.misc \"report=type report_methodology name impl_report_methodology_route_design_summary steps {route_design} runs {impl_1} options {}\" --advanced.misc \"report=type report_power name impl_report_power_route_design_summary steps {route_design} runs {impl_1} options {}\" --advanced.misc \"report=type report_route_status name impl_report_route_status_route_design_summary steps {route_design} runs {impl_1} options {}\" --advanced.misc \"report=type report_timing_summary name impl_report_timing_summary_route_design_summary steps {route_design} runs {impl_1} options {-max_paths 10}\" --advanced.misc \"report=type report_clock_utilization name impl_report_clock_utilization_route_design_summary steps {route_design} runs {impl_1} options {}\" --advanced.misc \"report=type report_bus_skew name impl_report_bus_skew_route_design_summary steps {route_design} runs {impl_1} options {-warn_on_violation}\" --advanced.misc \"report=type report_timing_summary name impl_report_timing_summary_post_route_phys_opt_design_summary steps {post_route_phys_opt_design} runs {impl_1} options {-max_paths 10}\" -t hw --platform /opt/xilinx/platforms/xilinx_u280_gen3x16_xdma_1_202211_1/xilinx_u280_gen3x16_xdma_1_202211_1.xpfm -k qec_decoder --compile -R2 -o build/qec_decoder.xo src/kernel/qec_decoder.cpp ",
+  "args": [
+   "-t",
+   "hw",
+   "--platform",
+   "/opt/xilinx/platforms/xilinx_u280_gen3x16_xdma_1_202211_1/xilinx_u280_gen3x16_xdma_1_202211_1.xpfm",
+   "-k",
+   "qec_decoder",
+   "--compile",
+   "-R2",
+   "-o",
+   "build/qec_decoder.xo",
+   "src/kernel/qec_decoder.cpp"
+  ],
+  "iniFiles": [],
+  "cwd": "/users/sohamb1/qec_project"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Thu Sep 24 17:09:30 2026",
+ "timestampMillis": "1790291370919",
+ "status": {
+  "cmdId": "ef80b911-d935-45c2-bd4c-d1581280c9a1",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "Thu Sep 24 17:09:35 2026",
+ "timestampMillis": "1790291375203",
+ "buildSummary": {
+  "hardwarePlatform": "xilinx_u280_gen3x16_xdma_1_202211_1.xpfm",
+  "hardwareDsa": "",
+  "platformDirectory": "/opt/xilinx/platforms/xilinx_u280_gen3x16_xdma_1_202211_1",
+  "runtime": "OpenCL",
+  "systemConfig": "Linux",
+  "flow": "BF_COMPILE",
+  "target": "TT_HW",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "qec_decoder",
+     "file": "/users/sohamb1/qec_project/build/qec_decoder.xo",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "/users/sohamb1/qec_project/src/kernel/qec_decoder.cpp"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "Vitis V++ Compiler Release 2023.1. SW Build 3860322 on 2023-05-04-06:32:48"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Thu Sep 24 17:09:35 2026",
+ "timestampMillis": "1790291375206",
+ "buildStep": {
+  "cmdId": "3633b596-7a6a-4c87-a4aa-8bdc7e753688",
+  "name": "vitis_hls",
+  "logFile": "/users/sohamb1/qec_project/_x/qec_decoder/qec_decoder/vitis_hls.log",
+  "commandLine": "vitis_hls -f /users/sohamb1/qec_project/_x/qec_decoder/qec_decoder/qec_decoder.tcl -messageDb vitis_hls.pb",
+  "args": [
+   "vitis_hls",
+   "-f",
+   "/users/sohamb1/qec_project/_x/qec_decoder/qec_decoder/qec_decoder.tcl",
+   "-messageDb",
+   "vitis_hls.pb"
+  ],
+  "iniFiles": [],
+  "cwd": "/users/sohamb1/qec_project"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Thu Sep 24 17:09:35 2026",
+ "timestampMillis": "1790291375206",
+ "status": {
+  "cmdId": "3633b596-7a6a-4c87-a4aa-8bdc7e753688",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Thu Sep 24 17:10:25 2026",
+ "timestampMillis": "1790291425597",
+ "status": {
+  "cmdId": "3633b596-7a6a-4c87-a4aa-8bdc7e753688",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Thu Sep 24 17:10:25 2026",
+ "timestampMillis": "1790291425613",
+ "report": {
+  "path": "/users/sohamb1/qec_project/_x/qec_decoder/qec_decoder/qec_decoder/solution/.autopilot/db/qec_decoder.design.xml",
+  "name": "qec_decoder",
+  "fileType": "XML",
+  "reportType": "KERNEL_HLS_REPORT",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Thu Sep 24 17:10:25 2026",
+ "timestampMillis": "1790291425613",
+ "report": {
+  "path": "/users/sohamb1/qec_project/_x/qec_decoder/qec_decoder/qec_decoder/solution/.autopilot/db/.message_syn.xml",
+  "name": "qec_decoder",
+  "fileType": "XML",
+  "reportType": "KERNEL_HLS_DRC_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Thu Sep 24 17:10:25 2026",
+ "timestampMillis": "1790291425615",
+ "report": {
+  "path": "/users/sohamb1/qec_project/_x/reports/qec_decoder/hls_reports/qec_decoder_csynth.rpt",
+  "name": "qec_decoder",
+  "fileType": "TEXT",
+  "reportType": "KERNEL_HLS_CSYNTH",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Thu Sep 24 17:10:25 2026",
+ "timestampMillis": "1790291425615",
+ "report": {
+  "path": "/users/sohamb1/qec_project/_x/qec_decoder/qec_decoder/qec_decoder/solution/syn/report/qec_decoder_csynth.xml",
+  "name": "qec_decoder",
+  "fileType": "XML",
+  "reportType": "KERNEL_HLS_CSYNTH",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Thu Sep 24 17:10:25 2026",
+ "timestampMillis": "1790291425620",
+ "report": {
+  "path": "/users/sohamb1/qec_project/_x/reports/qec_decoder/system_estimate_qec_decoder.xtxt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_SYSTEM_ESTIMATE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Thu Sep 24 17:10:25 2026",
+ "timestampMillis": "1790291425723",
+ "status": {
+  "cmdId": "ef80b911-d935-45c2-bd4c-d1581280c9a1",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Thu Sep 24 17:10:25 2026",
+ "timestampMillis": "1790291425788",
+ "report": {
+  "path": "/users/sohamb1/qec_project/_x/reports/qec_decoder/v++_compile_qec_decoder_guidance.html",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Thu Sep 24 17:10:25 2026",
+ "timestampMillis": "1790291425789",
+ "report": {
+  "path": "/users/sohamb1/qec_project/_x/v++_compile_qec_decoder_guidance.pb3",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
