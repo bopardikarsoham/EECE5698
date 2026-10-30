@@ -1,0 +1,269 @@
+INFO: [v++ 60-1306] Additional information associated with this v++ link can be found at:
+	Reports: /users/sohamb1/qec_project/_x/reports/link
+	Log files: /users/sohamb1/qec_project/_x/logs/link
+INFO: [v++ 60-1548] Creating build summary session with primary output /users/sohamb1/qec_project/build/qec_decoder.xclbin.link_summary, at Thu Sep 24 17:10:37 2026
+INFO: [v++ 60-1315] Creating rulecheck session with output '/users/sohamb1/qec_project/_x/reports/link/v++_link_qec_decoder_guidance.html', at Thu Sep 24 17:10:37 2026
+INFO: [v++ 60-895]   Target platform: /opt/xilinx/platforms/xilinx_u280_gen3x16_xdma_1_202211_1/xilinx_u280_gen3x16_xdma_1_202211_1.xpfm
+INFO: [v++ 60-1578]   This platform contains Xilinx Shell Archive '/opt/xilinx/platforms/xilinx_u280_gen3x16_xdma_1_202211_1/hw/hw.xsa'
+INFO: [v++ 74-78] Compiler Version string: 2023.1
+INFO: [v++ 60-629] Linking for hardware target
+INFO: [v++ 60-423]   Target device: xilinx_u280_gen3x16_xdma_1_202211_1
+INFO: [v++ 60-1332] Run 'run_link' status: Not started
+INFO: [v++ 60-1443] [17:10:41] Run run_link: Step system_link: Started
+INFO: [v++ 60-1453] Command Line: system_link --xo /users/sohamb1/qec_project/build/qec_decoder.xo --xpfm /opt/xilinx/platforms/xilinx_u280_gen3x16_xdma_1_202211_1/xilinx_u280_gen3x16_xdma_1_202211_1.xpfm --target hw --output_dir /users/sohamb1/qec_project/_x/link/int --temp_dir /users/sohamb1/qec_project/_x/link/sys_link
+INFO: [v++ 60-1454] Run Directory: /users/sohamb1/qec_project/_x/link/run_link
+INFO: [SYSTEM_LINK 82-70] Extracting xo v3 file /users/sohamb1/qec_project/build/qec_decoder.xo
+INFO: [SYSTEM_LINK 82-53] Creating IP database /users/sohamb1/qec_project/_x/link/sys_link/_sysl/.cdb/xd_ip_db.xml
+INFO: [SYSTEM_LINK 82-38] [17:10:43] build_xd_ip_db started: /proj/octfpga-PG0/tools/Xilinx/Vitis/2023.1/bin/build_xd_ip_db -ip_search 0  -sds-pf /users/sohamb1/qec_project/_x/link/sys_link/hw.hpfm -clkid 0 -ip /users/sohamb1/qec_project/_x/link/sys_link/iprepo/xilinx_com_hls_qec_decoder_1_0,qec_decoder -o /users/sohamb1/qec_project/_x/link/sys_link/_sysl/.cdb/xd_ip_db.xml
+INFO: [SYSTEM_LINK 82-37] [17:10:50] build_xd_ip_db finished successfully
+Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 441.000 ; gain = 0.000 ; free physical = 185236 ; free virtual = 198706
+INFO: [SYSTEM_LINK 82-51] Create system connectivity graph
+INFO: [SYSTEM_LINK 82-102] Applying explicit connections to the system connectivity graph: /users/sohamb1/qec_project/_x/link/sys_link/cfgraph/cfgen_cfgraph.xml
+INFO: [SYSTEM_LINK 82-38] [17:10:50] cfgen started: /proj/octfpga-PG0/tools/Xilinx/Vitis/2023.1/bin/cfgen  -dpa_mem_offload false -dmclkid 0 -r /users/sohamb1/qec_project/_x/link/sys_link/_sysl/.cdb/xd_ip_db.xml -o /users/sohamb1/qec_project/_x/link/sys_link/cfgraph/cfgen_cfgraph.xml
+INFO: [CFGEN 83-0] Kernel Specs: 
+INFO: [CFGEN 83-0]   kernel: qec_decoder, num: 1  {qec_decoder_1}
+INFO: [CFGEN 83-2226] Inferring mapping for argument qec_decoder_1.stream_in to HBM[0]
+INFO: [CFGEN 83-2226] Inferring mapping for argument qec_decoder_1.stream_out to HBM[0]
+INFO: [SYSTEM_LINK 82-37] [17:10:59] cfgen finished successfully
+Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 441.000 ; gain = 0.000 ; free physical = 185235 ; free virtual = 198705
+INFO: [SYSTEM_LINK 82-52] Create top-level block diagram
+INFO: [SYSTEM_LINK 82-38] [17:10:59] cf2bd started: /proj/octfpga-PG0/tools/Xilinx/Vitis/2023.1/bin/cf2bd  --linux --trace_buffer 1024 --input_file /users/sohamb1/qec_project/_x/link/sys_link/cfgraph/cfgen_cfgraph.xml --ip_db /users/sohamb1/qec_project/_x/link/sys_link/_sysl/.cdb/xd_ip_db.xml --cf_name dr --working_dir /users/sohamb1/qec_project/_x/link/sys_link/_sysl/.xsd --temp_dir /users/sohamb1/qec_project/_x/link/sys_link --output_dir /users/sohamb1/qec_project/_x/link/int --target_bd ulp.bd
+INFO: [CF2BD 82-31] Launching cf2xd: cf2xd -linux -trace-buffer 1024 -i /users/sohamb1/qec_project/_x/link/sys_link/cfgraph/cfgen_cfgraph.xml -r /users/sohamb1/qec_project/_x/link/sys_link/_sysl/.cdb/xd_ip_db.xml -o dr.xml
+INFO: [CF2BD 82-28] cf2xd finished successfully
+INFO: [CF2BD 82-31] Launching cf_xsd: cf_xsd -disable-address-gen -bd ulp.bd -dn dr -dp /users/sohamb1/qec_project/_x/link/sys_link/_sysl/.xsd
+INFO: [CF2BD 82-28] cf_xsd finished successfully
+INFO: [SYSTEM_LINK 82-37] [17:11:03] cf2bd finished successfully
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 441.000 ; gain = 0.000 ; free physical = 185231 ; free virtual = 198707
+INFO: [v++ 60-1441] [17:11:03] Run run_link: Step system_link: Completed
+Time (s): cpu = 00:00:22 ; elapsed = 00:00:22 . Memory (MB): peak = 468.898 ; gain = 0.000 ; free physical = 185302 ; free virtual = 198771
+INFO: [v++ 60-1443] [17:11:03] Run run_link: Step cf2sw: Started
+INFO: [v++ 60-1453] Command Line: cf2sw -sdsl /users/sohamb1/qec_project/_x/link/int/sdsl.dat -rtd /users/sohamb1/qec_project/_x/link/int/cf2sw.rtd -nofilter /users/sohamb1/qec_project/_x/link/int/cf2sw_full.rtd -xclbin /users/sohamb1/qec_project/_x/link/int/xclbin_orig.xml -o /users/sohamb1/qec_project/_x/link/int/xclbin_orig.1.xml
+INFO: [v++ 60-1454] Run Directory: /users/sohamb1/qec_project/_x/link/run_link
+INFO: [v++ 60-1441] [17:11:08] Run run_link: Step cf2sw: Completed
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 468.898 ; gain = 0.000 ; free physical = 185302 ; free virtual = 198771
+INFO: [v++ 60-1443] [17:11:08] Run run_link: Step rtd2_system_diagram: Started
+INFO: [v++ 60-1453] Command Line: rtd2SystemDiagram
+INFO: [v++ 60-1454] Run Directory: /users/sohamb1/qec_project/_x/link/run_link
+INFO: [v++ 60-1441] [17:11:09] Run run_link: Step rtd2_system_diagram: Completed
+Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.32 . Memory (MB): peak = 468.898 ; gain = 0.000 ; free physical = 185280 ; free virtual = 198749
+INFO: [v++ 60-1443] [17:11:09] Run run_link: Step vpl: Started
+INFO: [v++ 60-1453] Command Line: vpl -t hw -f /opt/xilinx/platforms/xilinx_u280_gen3x16_xdma_1_202211_1/xilinx_u280_gen3x16_xdma_1_202211_1.xpfm --remote_ip_cache /users/sohamb1/qec_project/.ipcache --output_dir /users/sohamb1/qec_project/_x/link/int --log_dir /users/sohamb1/qec_project/_x/logs/link --report_dir /users/sohamb1/qec_project/_x/reports/link --config /users/sohamb1/qec_project/_x/link/int/vplConfig.ini -k /users/sohamb1/qec_project/_x/link/int/kernel_info.dat --webtalk_flag Vitis --temp_dir /users/sohamb1/qec_project/_x/link --no-info --iprepo /users/sohamb1/qec_project/_x/link/int/xo/ip_repo/xilinx_com_hls_qec_decoder_1_0 --messageDb /users/sohamb1/qec_project/_x/link/run_link/vpl.pb /users/sohamb1/qec_project/_x/link/int/dr.bd.tcl
+INFO: [v++ 60-1454] Run Directory: /users/sohamb1/qec_project/_x/link/run_link
+
+****** vpl v2023.1 (64-bit)
+  **** SW Build 3860322 on 2023-05-04-06:32:48
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+INFO: [VPL 60-839] Read in kernel information from file '/users/sohamb1/qec_project/_x/link/int/kernel_info.dat'.
+INFO: [VPL 74-78] Compiler Version string: 2023.1
+INFO: [VPL 60-423]   Target device: xilinx_u280_gen3x16_xdma_1_202211_1
+INFO: [VPL 60-1032] Extracting hardware platform to /users/sohamb1/qec_project/_x/link/vivado/vpl/.local/hw_platform
+[17:11:26] Run vpl: Step create_project: Started
+Creating Vivado project.
+[17:11:33] Run vpl: Step create_project: Completed
+[17:11:33] Run vpl: Step create_bd: Started
+[17:12:05] Run vpl: Step create_bd: Completed
+[17:12:05] Run vpl: Step update_bd: Started
+[17:12:05] Run vpl: Step update_bd: Completed
+[17:12:05] Run vpl: Step generate_target: Started
+[17:13:09] Run vpl: Step generate_target: Completed
+[17:13:09] Run vpl: Step config_hw_runs: Started
+[17:13:11] Run vpl: Step config_hw_runs: Completed
+[17:13:11] Run vpl: Step synth: Started
+[17:13:42] Block-level synthesis in progress, 0 of 1 jobs complete, 1 job running.
+[17:14:12] Block-level synthesis in progress, 0 of 1 jobs complete, 1 job running.
+[17:14:35] Run vpl: Step synth: Completed
+[17:14:35] Run vpl: Step impl: Started
+[17:22:07] Finished 2nd of 6 tasks (FPGA linking synthesized kernels to platform). Elapsed time: 00h 10m 56s 
+
+[17:22:07] Starting logic optimization..
+[17:23:07] Phase 1 Retarget
+[17:23:07] Phase 2 Constant propagation
+[17:23:07] Phase 3 Sweep
+[17:23:37] Phase 4 BUFG optimization
+[17:24:07] Phase 5 Shift Register Optimization
+[17:24:07] Phase 6 Post Processing Netlist
+[17:25:08] Finished 3rd of 6 tasks (FPGA logic optimization). Elapsed time: 00h 03m 00s 
+
+[17:25:08] Starting logic placement..
+[17:25:08] Phase 1 Placer Initialization
+[17:25:08] Phase 1.1 Placer Initialization Netlist Sorting
+[17:28:39] Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
+[17:28:39] Phase 1.3 Build Placer Netlist Model
+[17:30:39] Phase 1.4 Constrain Clocks/Macros
+[17:30:39] Phase 2 Global Placement
+[17:30:39] Phase 2.1 Floorplanning
+[17:31:09] Phase 2.1.1 Partition Driven Placement
+[17:31:09] Phase 2.1.1.1 PBP: Partition Driven Placement
+[17:31:39] Phase 2.1.1.2 PBP: Clock Region Placement
+[17:32:10] Phase 2.1.1.3 PBP: Compute Congestion
+[17:32:10] Phase 2.1.1.4 PBP: UpdateTiming
+[17:32:40] Phase 2.1.1.5 PBP: Add part constraints
+[17:32:40] Phase 2.2 Physical Synthesis After Floorplan
+[17:33:10] Phase 2.3 Update Timing before SLR Path Opt
+[17:33:10] Phase 2.4 Post-Processing in Floorplanning
+[17:33:10] Phase 2.5 Global Placement Core
+[17:42:13] Phase 2.5.1 UpdateTiming Before Physical Synthesis
+[17:42:43] Phase 2.5.2 Physical Synthesis In Placer
+[17:44:13] Phase 3 Detail Placement
+[17:44:13] Phase 3.1 Commit Multi Column Macros
+[17:44:13] Phase 3.2 Commit Most Macros & LUTRAMs
+[17:45:14] Phase 3.3 Small Shape DP
+[17:45:14] Phase 3.3.1 Small Shape Clustering
+[17:45:44] Phase 3.3.2 Flow Legalize Slice Clusters
+[17:45:44] Phase 3.3.3 Slice Area Swap
+[17:45:44] Phase 3.3.3.1 Slice Area Swap Initial
+[17:46:14] Phase 3.4 Place Remaining
+[17:46:44] Phase 3.5 Re-assign LUT pins
+[17:46:44] Phase 3.6 Pipeline Register Optimization
+[17:46:44] Phase 3.7 Fast Optimization
+[17:47:14] Phase 4 Post Placement Optimization and Clean-Up
+[17:47:14] Phase 4.1 Post Commit Optimization
+[17:48:15] Phase 4.1.1 Post Placement Optimization
+[17:48:15] Phase 4.1.1.1 BUFG Insertion
+[17:48:15] Phase 1 Physical Synthesis Initialization
+[17:48:45] Phase 4.1.1.2 BUFG Replication
+[17:48:45] Phase 4.1.1.3 Post Placement Timing Optimization
+[17:49:45] Phase 4.1.1.4 Replication
+[17:50:46] Phase 4.2 Post Placement Cleanup
+[17:50:46] Phase 4.3 Placer Reporting
+[17:50:46] Phase 4.3.1 Print Estimated Congestion
+[17:50:46] Phase 4.4 Final Placement Cleanup
+[17:52:46] Finished 4th of 6 tasks (FPGA logic placement). Elapsed time: 00h 27m 38s 
+
+[17:52:46] Starting logic routing..
+[17:53:16] Phase 1 Build RT Design
+[17:54:47] Phase 2 Router Initialization
+[17:54:47] Phase 2.1 Fix Topology Constraints
+[17:54:47] Phase 2.2 Pre Route Cleanup
+[17:54:47] Phase 2.3 Global Clock Net Routing
+[17:55:17] Phase 2.4 Update Timing
+[17:56:17] Phase 2.5 Update Timing for Bus Skew
+[17:56:17] Phase 2.5.1 Update Timing
+[17:56:48] Phase 3 Initial Routing
+[17:56:48] Phase 3.1 Global Routing
+[17:57:18] Phase 4 Rip-up And Reroute
+[17:57:18] Phase 4.1 Global Iteration 0
+[18:01:49] Phase 4.2 Global Iteration 1
+[18:02:50] Phase 4.3 Global Iteration 2
+[18:03:20] Phase 4.4 Global Iteration 3
+[18:03:50] Phase 5 Delay and Skew Optimization
+[18:03:50] Phase 5.1 Delay CleanUp
+[18:03:50] Phase 5.1.1 Update Timing
+[18:04:20] Phase 5.1.2 Update Timing
+[18:04:50] Phase 5.2 Clock Skew Optimization
+[18:04:50] Phase 6 Post Hold Fix
+[18:04:50] Phase 6.1 Hold Fix Iter
+[18:04:50] Phase 6.1.1 Update Timing
+[18:05:20] Phase 7 Leaf Clock Prog Delay Opt
+[18:05:51] Phase 8 Route finalize
+[18:05:51] Phase 9 Verifying routed nets
+[18:05:51] Phase 10 Depositing Routes
+[18:06:21] Phase 11 Resolve XTalk
+[18:06:21] Phase 12 Post Router Timing
+[18:06:21] Finished 5th of 6 tasks (FPGA routing). Elapsed time: 00h 13m 34s 
+
+[18:06:21] Starting bitstream generation..
+[18:06:21] Phase 13 Post-Route Event Processing
+[18:13:53] Creating bitmap...
+[18:25:57] Writing bitstream ./level0_i_ulp_my_rm_partial.bit...
+[18:25:57] Finished 6th of 6 tasks (FPGA bitstream generation). Elapsed time: 00h 19m 36s 
+Check VPL, containing 12 checks, has run: 0 errors, 2 advisory violations
+ADVISORY: [AUTO-FREQ-SCALING-08] For clock hbm_aclk, the auto scaled frequency 462.1 MHz exceeds the original specified frequency. The compiler will select the original specified frequency of 450.0 MHz.
+ADVISORY: [AUTO-FREQ-SCALING-08] For clock clk_kernel_00_unbuffered_net, the auto scaled frequency 350.7 MHz exceeds the original specified frequency. The compiler will select the original specified frequency of 300.0 MHz.
+[18:26:43] Run vpl: Step impl: Completed
+[18:26:44] Run vpl: FINISHED. Run Status: impl Complete!
+INFO: [v++ 60-1441] [18:26:44] Run run_link: Step vpl: Completed
+Time (s): cpu = 00:00:22 ; elapsed = 01:15:35 . Memory (MB): peak = 468.898 ; gain = 0.000 ; free physical = 181357 ; free virtual = 195351
+INFO: [v++ 60-1443] [18:26:44] Run run_link: Step rtdgen: Started
+INFO: [v++ 60-1453] Command Line: rtdgen
+INFO: [v++ 60-1454] Run Directory: /users/sohamb1/qec_project/_x/link/run_link
+INFO: [v++ 60-991] clock name 'ulp_ucs/aclk_kernel_01' (clock ID '1') is being mapped to clock name 'KERNEL_CLK' in the xclbin
+INFO: [v++ 60-991] clock name 'ulp_ucs/aclk_kernel_00' (clock ID '0') is being mapped to clock name 'DATA_CLK' in the xclbin
+INFO: [v++ 60-991] clock name 'hbm_aclk' (clock ID '') is being mapped to clock name 'hbm_aclk' in the xclbin
+INFO: [v++ 60-1230] The compiler selected the following frequencies for the runtime controllable kernel clock(s) and scalable system clock(s): System (SYSTEM) clock: hbm_aclk = 450, Kernel (KERNEL) clock: ulp_ucs/aclk_kernel_01 = 500, Kernel (DATA) clock: ulp_ucs/aclk_kernel_00 = 300
+INFO: [v++ 60-1453] Command Line: cf2sw -a /users/sohamb1/qec_project/_x/link/int/address_map.xml -sdsl /users/sohamb1/qec_project/_x/link/int/sdsl.dat -xclbin /users/sohamb1/qec_project/_x/link/int/xclbin_orig.xml -rtd /users/sohamb1/qec_project/_x/link/int/qec_decoder.rtd -o /users/sohamb1/qec_project/_x/link/int/qec_decoder.xml
+INFO: [v++ 60-1652] Cf2sw returned exit code: 0
+INFO: [v++ 60-1441] [18:26:48] Run run_link: Step rtdgen: Completed
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 468.898 ; gain = 0.000 ; free physical = 181356 ; free virtual = 195350
+INFO: [v++ 60-1443] [18:26:48] Run run_link: Step xclbinutil: Started
+INFO: [v++ 60-1453] Command Line: xclbinutil --add-section BITSTREAM:RAW:/users/sohamb1/qec_project/_x/link/int/partial.bit --force --target hw --key-value SYS:dfx_enable:true --add-section :JSON:/users/sohamb1/qec_project/_x/link/int/qec_decoder.rtd --append-section :JSON:/users/sohamb1/qec_project/_x/link/int/appendSection.rtd --add-section CLOCK_FREQ_TOPOLOGY:JSON:/users/sohamb1/qec_project/_x/link/int/qec_decoder_xml.rtd --add-section BUILD_METADATA:JSON:/users/sohamb1/qec_project/_x/link/int/qec_decoder_build.rtd --add-section EMBEDDED_METADATA:RAW:/users/sohamb1/qec_project/_x/link/int/qec_decoder.xml --add-section SYSTEM_METADATA:RAW:/users/sohamb1/qec_project/_x/link/int/systemDiagramModelSlrBaseAddress.json --key-value SYS:PlatformVBNV:xilinx_u280_gen3x16_xdma_1_202211_1 --output /users/sohamb1/qec_project/build/qec_decoder.xclbin
+INFO: [v++ 60-1454] Run Directory: /users/sohamb1/qec_project/_x/link/run_link
+XRT Build Version: 2.15.225 (2023.1)
+       Build Date: 2023-05-03 10:13:19
+          Hash ID: adf27adb3cfadc6e4c41d6db814159f1329b24f3
+Creating a default 'in-memory' xclbin image.
+
+Section: 'BITSTREAM'(0) was successfully added.
+Size   : 49138810 bytes
+Format : RAW
+File   : '/users/sohamb1/qec_project/_x/link/int/partial.bit'
+
+Section: 'MEM_TOPOLOGY'(6) was successfully added.
+Format : JSON
+File   : 'mem_topology'
+
+Section: 'IP_LAYOUT'(8) was successfully added.
+Format : JSON
+File   : 'ip_layout'
+
+Section: 'CONNECTIVITY'(7) was successfully added.
+Format : JSON
+File   : 'connectivity'
+
+Section: 'CLOCK_FREQ_TOPOLOGY'(11) was successfully added.
+Size   : 410 bytes
+Format : JSON
+File   : '/users/sohamb1/qec_project/_x/link/int/qec_decoder_xml.rtd'
+
+Section: 'BUILD_METADATA'(14) was successfully added.
+Size   : 2115 bytes
+Format : JSON
+File   : '/users/sohamb1/qec_project/_x/link/int/qec_decoder_build.rtd'
+
+Section: 'EMBEDDED_METADATA'(2) was successfully added.
+Size   : 3267 bytes
+Format : RAW
+File   : '/users/sohamb1/qec_project/_x/link/int/qec_decoder.xml'
+
+Section: 'SYSTEM_METADATA'(22) was successfully added.
+Size   : 24853 bytes
+Format : RAW
+File   : '/users/sohamb1/qec_project/_x/link/int/systemDiagramModelSlrBaseAddress.json'
+
+Section: 'PARTITION_METADATA'(20) was successfully appended to.
+Format : JSON
+File   : 'partition_metadata'
+
+Section: 'IP_LAYOUT'(8) was successfully appended to.
+Format : JSON
+File   : 'ip_layout'
+Successfully wrote (49197202 bytes) to the output file: /users/sohamb1/qec_project/build/qec_decoder.xclbin
+Leaving xclbinutil.
+INFO: [v++ 60-1441] [18:26:48] Run run_link: Step xclbinutil: Completed
+Time (s): cpu = 00:00:00.06 ; elapsed = 00:00:00.14 . Memory (MB): peak = 468.898 ; gain = 0.000 ; free physical = 181311 ; free virtual = 195351
+INFO: [v++ 60-1443] [18:26:48] Run run_link: Step xclbinutilinfo: Started
+INFO: [v++ 60-1453] Command Line: xclbinutil --quiet --force --info /users/sohamb1/qec_project/build/qec_decoder.xclbin.info --input /users/sohamb1/qec_project/build/qec_decoder.xclbin
+INFO: [v++ 60-1454] Run Directory: /users/sohamb1/qec_project/_x/link/run_link
+INFO: [v++ 60-1441] [18:26:49] Run run_link: Step xclbinutilinfo: Completed
+Time (s): cpu = 00:00:00.38 ; elapsed = 00:00:00.44 . Memory (MB): peak = 468.898 ; gain = 0.000 ; free physical = 181310 ; free virtual = 195351
+INFO: [v++ 60-1443] [18:26:49] Run run_link: Step generate_sc_driver: Started
+INFO: [v++ 60-1453] Command Line: 
+INFO: [v++ 60-1454] Run Directory: /users/sohamb1/qec_project/_x/link/run_link
+INFO: [v++ 60-1441] [18:26:49] Run run_link: Step generate_sc_driver: Completed
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 468.898 ; gain = 0.000 ; free physical = 181310 ; free virtual = 195351
+INFO: [v++ 60-244] Generating system estimate report...
+INFO: [v++ 60-1092] Generated system estimate report: /users/sohamb1/qec_project/_x/reports/link/system_estimate_qec_decoder.xtxt
+INFO: [v++ 60-586] Created /users/sohamb1/qec_project/build/qec_decoder.ltx
+INFO: [v++ 60-586] Created build/qec_decoder.xclbin
+INFO: [v++ 60-1307] Run completed. Additional information can be found in:
+	Guidance: /users/sohamb1/qec_project/_x/reports/link/v++_link_qec_decoder_guidance.html
+	Timing Report: /users/sohamb1/qec_project/_x/reports/link/imp/impl_1_hw_bb_locked_timing_summary_routed.rpt
+	Vivado Log: /users/sohamb1/qec_project/_x/logs/link/vivado.log
+	Steps Log File: /users/sohamb1/qec_project/_x/logs/link/link.steps.log
+
+INFO: [v++ 60-2343] Use the vitis_analyzer tool to visualize and navigate the relevant reports. Run the following command. 
+    vitis_analyzer /users/sohamb1/qec_project/build/qec_decoder.xclbin.link_summary 
+INFO: [v++ 60-791] Total elapsed time: 1h 16m 22s
+INFO: [v++ 60-1653] Closing dispatch client.
