@@ -1,0 +1,23 @@
+# Python environments and caches
+.venv/
+.venv_linux_old/
+__pycache__/
+.DS_Store
+
+# Build outputs (rebuilt by make and v++; no bitstreams are submitted)
+build/
+_x/
+.Xil/
+.ipcache/
+*.xclbin
+*.xo
+*.log.bak
+*.jou
+
+# Generated Stim data (regenerate with python/gen_data.py; frozen copies are in tests/cases/)
+data/
+
+# Per-run decoder outputs (make sw); the golden outputs are expected_pred.bin
+sw_pred.bin
+sw_stats.txt
+

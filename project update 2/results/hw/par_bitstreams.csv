@@ -1,0 +1,7 @@
+name,d,p,case,requested_mhz,reached_mhz,kernel_luts,kernel_regs,bram,dsp,sm_cycles_per_shot,us_per_shot_state_machine,note
+par_d3,3,0.01,tests/cases/surf_z_d3_p0.01_n100000,300,300.0,10739,5615,2,0,27.7,0.092,met 300 MHz (311.9 MHz achievable)
+par_d3b,3,0.01,tests/cases/surf_z_d3_p0.01_n100000,350,346.5,10465,5601,2,0,30.21,0.087,registered level OR; v++ lowered the clock from 350
+par_d5,5,0.003,tests/par_cases/surf_z_d5_p0.003_n100000,300,213.7,52628,18435,4,0,43.2,0.202,v++ lowered the clock; critical path through the forest level OR
+par_d5b,5,0.003,tests/par_cases/surf_z_d5_p0.003_n100000,300,,,,,,46.72,,registered level OR; routing failed at 300 MHz (no bitstream)
+par_d5c250,5,0.003,tests/par_cases/surf_z_d5_p0.003_n100000,250,250.0,52456,18393,4,0,46.72,0.187,par_d5b kernel relinked; met 250 MHz (255.1 MHz achievable)
+par_d5c275,5,0.003,tests/par_cases/surf_z_d5_p0.003_n100000,275,250.6,53454,18393,4,0,46.72,0.186,par_d5b kernel relinked; v++ lowered the clock from 275

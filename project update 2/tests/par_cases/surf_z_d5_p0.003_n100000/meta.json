@@ -1,0 +1,18 @@
+{
+  "code": "surf_z",
+  "stim_task": "surface_code:rotated_memory_z",
+  "distance": 5,
+  "rounds": 5,
+  "p": 0.003,
+  "shots": 100000,
+  "seed": 5698,
+  "wscale": 2.0,
+  "num_detectors": 120,
+  "num_observables": 1,
+  "num_edges": 502,
+  "obs_only_pieces_skipped": 0,
+  "parallel_edge_obs_conflicts": 0,
+  "pymatching_logical_errors": 327,
+  "stim_version": "1.16.0",
+  "pymatching_version": "2.4.0"
+}

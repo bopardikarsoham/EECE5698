@@ -1,0 +1,10 @@
+version,source,LUT,LUT_pct,LUTAsMem,REG,BRAM,URAM,DSP,clock_MHz,WNS_ns
+v1,routed timing only (utilization report not kept),,,,,,,,300,0.016
+v2,routed (impl_1_kernel_util_routed.rpt),10526,0.89,1249,12002,96,0,4,300,0.006
+v3,routed (impl_1_kernel_util_routed.rpt),10024,0.85,1274,11377,107,0,4,300,0.014
+v4,routed (impl_1_kernel_util_routed.rpt),10468,0.89,1324,11716,108,1,6,300,0.001
+v5,HLS estimate (routed utilization report not kept; routed timing kept),25677,,,15255,180,8,6,300,0.011
+v6,routed (bit_v6_v9c/v6_bit/reports/impl_1_kernel_util_routed.rpt),12104,1.03,1311,13551,114,1,6,300,0.007
+v9c,routed (bit_v6_v9c/v9c_bit/reports/impl_1_kernel_util_routed.rpt),22033,1.87,2155,18214,208,1,6,300,0.016
+v9c_350,routed (bit_v6_v9c/v9c_350/reports/impl_1_kernel_util_routed.rpt; auto-scaled from 350 to 348.5 MHz),21930,1.86,2271,19230,208,1,6,348.5,-0.012 at 350 (met at 348.5)
+v9c_big,routed (bit_v6_v9c/v9c_big/reports/impl_1_kernel_util_routed.rpt; limits 5120 detectors / 28672 edges; auto-scaled from 300 to 223.8 MHz),22559,1.91,1498,18528,691,0,6,223.8,-1.135 at 300 (met at 223.8)

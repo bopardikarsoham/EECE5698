@@ -1,0 +1,9 @@
+sweep: surf_z d=5  p=0.003  UF   3636 (0.003636)  PM   3335 (0.003335)      4.743 us/shot  invalid=0 cap=0
+sweep: surf_z d=5  p=0.005  UF  15081 (0.015081)  PM  13981 (0.013981)      7.784 us/shot  invalid=0 cap=0
+sweep: surf_z d=7  p=0.003  UF   1652 (0.001652)  PM   1484 (0.001484)     26.192 us/shot  invalid=0 cap=0
+sweep: surf_z d=7  p=0.005  UF  11208 (0.011208)  PM   9946 (0.009946)     39.554 us/shot  invalid=0 cap=0
+sweep: surf_z d=9  p=0.003  UF    706 (0.000706)  PM    599 (0.000599)     79.001 us/shot  invalid=0 cap=0
+sweep: surf_z d=9  p=0.005  UF   8074 (0.008074)  PM   6795 (0.006795)    112.215 us/shot  invalid=0 cap=0
+sweep: surf_z d=11 p=0.003  UF    252 (0.000252)  PM    212 (0.000212)    176.947 us/shot  invalid=0 cap=0
+sweep: surf_z d=11 p=0.005  UF   5589 (0.005589)  PM   4426 (0.004426)    248.929 us/shot  invalid=0 cap=0
+sweep: wrote results/sweep_1m.csv

@@ -1,0 +1,11 @@
+# CPU baseline: same decoder source (src/kernel/qec_decoder.cpp + uf_fast.h), g++ -O2, Apple M3, single thread,
+# graph loaded first, only decode timed (build/sw/kernel_tb --time [--per-shot N])
+PASS  data/long/surf_z_d11_p0.001_n200000 (200000 shots, one per call, match golden, 0 invalid, 0 cap hits, max 26 growth iterations)
+      CPU time per shot (one call each): mean 4.277 us, p50 4.000, p99 10.250, p99.9 15.542, max 65.666
+kernel_tb: 1 / 1 cases PASS
+PASS  data/long/surf_z_d11_p0.003_n200000 (200000 shots, one per call, match golden, 0 invalid, 0 cap hits, max 39 growth iterations)
+      CPU time per shot (one call each): mean 14.983 us, p50 14.084, p99 32.667, p99.9 49.083, max 138.167
+kernel_tb: 1 / 1 cases PASS
+PASS  data/long/surf_z_d7_p0.001_n200000 (200000 shots, one per call, match golden, 0 invalid, 0 cap hits, max 18 growth iterations)
+      CPU time per shot (one call each): mean 0.833 us, p50 0.625, p99 3.708, p99.9 6.584, max 32.333
+kernel_tb: 1 / 1 cases PASS

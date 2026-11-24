@@ -1,0 +1,234 @@
+### surf_z_d13_p0.001_n10000
+Starting QEC FPGA Host Application...
+Case big/surf_z_d13_p0.001_n10000: 2184 detectors, 11398 edges, 10000 shots
+Connected to device: xilinx_u280_gen3x16_xdma_base_1
+Loading bitstream: /users/sohamb1/qec/xclbin/v9c_big.xclbin
+Running the decoder kernel...
+Kernel time: 171394 us for 10000 shots (17.1394 us/shot, includes kernel launch)
+Max growth iterations: 22
+Total work: 1.6605e+07 inner-loop iterations (96.8821 per us; compare with the clock rate)
+Per shot, counted on the card: defects=38.2325 members=106.165 frontier=106.165 apply=1041.67 merges=23.5191 relabel=24.4727 compact=101.257 peel_scan=126.451 peel_walk=41.1805 cleanup=257.924
+Invalid corrections: 0, cap hits: 0
+Shots that differ from golden: 0 / 10000
+PASS: FPGA output vs golden
+### surf_z_d13_p0.001_n200000
+Starting QEC FPGA Host Application...
+Case big/surf_z_d13_p0.001_n200000: 2184 detectors, 11398 edges, 200000 shots
+Connected to device: xilinx_u280_gen3x16_xdma_base_1
+Loading bitstream: /users/sohamb1/qec/xclbin/v9c_big.xclbin
+Running the decoder kernel...
+Kernel time: 3.38015e+06 us for 200000 shots (16.9007 us/shot, includes kernel launch)
+Max growth iterations: 25
+Total work: 3.30094e+08 inner-loop iterations (97.6567 per us; compare with the clock rate)
+Per shot, counted on the card: defects=37.9386 members=105.591 frontier=105.591 apply=1035.03 merges=23.4068 relabel=24.3726 compact=100.589 peel_scan=125.676 peel_walk=40.9242 cleanup=256.157
+Invalid corrections: 0, cap hits: 0
+Shots that differ from golden: 0 / 200000
+PASS: FPGA output vs golden
+### surf_z_d13_p0.003_n10000
+Starting QEC FPGA Host Application...
+Case big/surf_z_d13_p0.003_n10000: 2184 detectors, 11398 edges, 10000 shots
+Connected to device: xilinx_u280_gen3x16_xdma_base_1
+Loading bitstream: /users/sohamb1/qec/xclbin/v9c_big.xclbin
+Running the decoder kernel...
+Kernel time: 478139 us for 10000 shots (47.8139 us/shot, includes kernel launch)
+Max growth iterations: 37
+Total work: 5.05011e+07 inner-loop iterations (105.62 per us; compare with the clock rate)
+Per shot, counted on the card: defects=110.222 members=352.436 frontier=352.436 apply=3310.15 merges=85.9632 relabel=96.7842 compact=292.561 peel_scan=409.135 peel_walk=126.986 cleanup=784.816
+Invalid corrections: 0, cap hits: 0
+Shots that differ from golden: 0 / 10000
+PASS: FPGA output vs golden
+### surf_z_d13_p0.005_n10000
+Starting QEC FPGA Host Application...
+Case big/surf_z_d13_p0.005_n10000: 2184 detectors, 11398 edges, 10000 shots
+Connected to device: xilinx_u280_gen3x16_xdma_base_1
+Loading bitstream: /users/sohamb1/qec/xclbin/v9c_big.xclbin
+Running the decoder kernel...
+Kernel time: 833149 us for 10000 shots (83.3149 us/shot, includes kernel launch)
+Max growth iterations: 39
+Total work: 8.92688e+07 inner-loop iterations (107.146 per us; compare with the clock rate)
+Per shot, counted on the card: defects=177.186 members=668.321 frontier=668.321 apply=6029.01 merges=171.259 relabel=212.95 compact=475.568 peel_scan=741.709 peel_walk=222.005 cleanup=1329.7
+Invalid corrections: 0, cap hits: 0
+Shots that differ from golden: 0 / 10000
+PASS: FPGA output vs golden
+### surf_z_d13_p0.01_n10000
+Starting QEC FPGA Host Application...
+Case big/surf_z_d13_p0.01_n10000: 2184 detectors, 11398 edges, 10000 shots
+Connected to device: xilinx_u280_gen3x16_xdma_base_1
+Loading bitstream: /users/sohamb1/qec/xclbin/v9c_big.xclbin
+Running the decoder kernel...
+Kernel time: 1.94276e+06 us for 10000 shots (194.276 us/shot, includes kernel launch)
+Max growth iterations: 35
+Total work: 2.11425e+08 inner-loop iterations (108.827 per us; compare with the clock rate)
+Per shot, counted on the card: defects=325.416 members=1788.33 frontier=1788.33 apply=15191.2 merges=461.831 relabel=696.547 compact=1016.38 peel_scan=1736.12 peel_walk=487.039 cleanup=2653.82
+Invalid corrections: 0, cap hits: 0
+Shots that differ from golden: 0 / 10000
+PASS: FPGA output vs golden
+### surf_z_d15_p0.001_n10000
+Starting QEC FPGA Host Application...
+Case big/surf_z_d15_p0.001_n10000: 3360 detectors, 17862 edges, 10000 shots
+Connected to device: xilinx_u280_gen3x16_xdma_base_1
+Loading bitstream: /users/sohamb1/qec/xclbin/v9c_big.xclbin
+Running the decoder kernel...
+Kernel time: 261200 us for 10000 shots (26.12 us/shot, includes kernel launch)
+Max growth iterations: 19
+Total work: 2.62798e+07 inner-loop iterations (100.612 per us; compare with the clock rate)
+Per shot, counted on the card: defects=59.5766 members=168.074 frontier=168.074 apply=1680.05 merges=36.4423 relabel=37.9766 compact=159.815 peel_scan=196.106 peel_walk=63.6447 cleanup=408.177
+Invalid corrections: 0, cap hits: 0
+Shots that differ from golden: 0 / 10000
+PASS: FPGA output vs golden
+### surf_z_d15_p0.003_n10000
+Starting QEC FPGA Host Application...
+Case big/surf_z_d15_p0.003_n10000: 3360 detectors, 17862 edges, 10000 shots
+Connected to device: xilinx_u280_gen3x16_xdma_base_1
+Loading bitstream: /users/sohamb1/qec/xclbin/v9c_big.xclbin
+Running the decoder kernel...
+Kernel time: 735555 us for 10000 shots (73.5555 us/shot, includes kernel launch)
+Max growth iterations: 36
+Total work: 7.92403e+07 inner-loop iterations (107.729 per us; compare with the clock rate)
+Per shot, counted on the card: defects=171.433 members=550.103 frontier=550.103 apply=5265.39 merges=133.595 relabel=150.852 compact=452.531 peel_scan=635.905 peel_walk=197.284 cleanup=1239.29
+Invalid corrections: 0, cap hits: 0
+Shots that differ from golden: 0 / 10000
+PASS: FPGA output vs golden
+### surf_z_d15_p0.005_n10000
+Starting QEC FPGA Host Application...
+Case big/surf_z_d15_p0.005_n10000: 3360 detectors, 17862 edges, 10000 shots
+Connected to device: xilinx_u280_gen3x16_xdma_base_1
+Loading bitstream: /users/sohamb1/qec/xclbin/v9c_big.xclbin
+Running the decoder kernel...
+Kernel time: 1.30931e+06 us for 10000 shots (130.931 us/shot, includes kernel launch)
+Max growth iterations: 36
+Total work: 1.42564e+08 inner-loop iterations (108.885 per us; compare with the clock rate)
+Per shot, counted on the card: defects=275.902 members=1075.47 frontier=1075.47 apply=9816.94 merges=271.421 relabel=340.253 compact=739.394 peel_scan=1168.04 peel_walk=349.292 cleanup=2115.95
+Invalid corrections: 0, cap hits: 0
+Shots that differ from golden: 0 / 10000
+PASS: FPGA output vs golden
+### surf_z_d15_p0.01_n10000
+Starting QEC FPGA Host Application...
+Case big/surf_z_d15_p0.01_n10000: 3360 detectors, 17862 edges, 10000 shots
+Connected to device: xilinx_u280_gen3x16_xdma_base_1
+Loading bitstream: /users/sohamb1/qec/xclbin/v9c_big.xclbin
+Running the decoder kernel...
+Kernel time: 3.11563e+06 us for 10000 shots (311.563 us/shot, includes kernel launch)
+Max growth iterations: 42
+Total work: 3.42494e+08 inner-loop iterations (109.928 per us; compare with the clock rate)
+Per shot, counted on the card: defects=506.66 members=2941.97 frontier=2941.97 apply=25064.3 merges=747.033 relabel=1152.53 compact=1574.26 peel_scan=2778.62 peel_walk=777.896 cleanup=4260.16
+Invalid corrections: 0, cap hits: 0
+Shots that differ from golden: 0 / 10000
+PASS: FPGA output vs golden
+### surf_z_d17_p0.001_n10000
+Starting QEC FPGA Host Application...
+Case big/surf_z_d17_p0.001_n10000: 4896 detectors, 26398 edges, 10000 shots
+Connected to device: xilinx_u280_gen3x16_xdma_base_1
+Loading bitstream: /users/sohamb1/qec/xclbin/v9c_big.xclbin
+Running the decoder kernel...
+Kernel time: 378174 us for 10000 shots (37.8174 us/shot, includes kernel launch)
+Max growth iterations: 32
+Total work: 3.89556e+07 inner-loop iterations (103.01 per us; compare with the clock rate)
+Per shot, counted on the card: defects=87.6452 members=248.516 frontier=248.516 apply=2517.78 merges=53.3774 relabel=55.7215 compact=235.953 peel_scan=287.553 peel_walk=93.1528 cleanup=606.236
+Invalid corrections: 0, cap hits: 0
+Shots that differ from golden: 0 / 10000
+PASS: FPGA output vs golden
+### surf_z_d17_p0.001_n200000
+Starting QEC FPGA Host Application...
+Case big/surf_z_d17_p0.001_n200000: 4896 detectors, 26398 edges, 200000 shots
+Connected to device: xilinx_u280_gen3x16_xdma_base_1
+Loading bitstream: /users/sohamb1/qec/xclbin/v9c_big.xclbin
+Running the decoder kernel...
+Kernel time: 7.45786e+06 us for 200000 shots (37.2893 us/shot, includes kernel launch)
+Max growth iterations: 34
+Total work: 7.74919e+08 inner-loop iterations (103.906 per us; compare with the clock rate)
+Per shot, counted on the card: defects=87.2849 members=246.854 frontier=246.854 apply=2502.46 merges=52.985 relabel=55.2725 compact=234.914 peel_scan=285.905 peel_walk=92.65 cleanup=603.245
+Invalid corrections: 0, cap hits: 0
+Shots that differ from golden: 0 / 200000
+PASS: FPGA output vs golden
+### surf_z_d17_p0.003_n10000
+Starting QEC FPGA Host Application...
+Case big/surf_z_d17_p0.003_n10000: 4896 detectors, 26398 edges, 10000 shots
+Connected to device: xilinx_u280_gen3x16_xdma_base_1
+Loading bitstream: /users/sohamb1/qec/xclbin/v9c_big.xclbin
+Running the decoder kernel...
+Kernel time: 1.0787e+06 us for 10000 shots (107.87 us/shot, includes kernel launch)
+Max growth iterations: 38
+Total work: 1.17732e+08 inner-loop iterations (109.143 per us; compare with the clock rate)
+Per shot, counted on the card: defects=252.75 members=815.152 frontier=815.152 apply=7908.84 merges=197.152 relabel=223.209 compact=663.504 peel_scan=938.099 peel_walk=291.045 cleanup=1848.5
+Invalid corrections: 0, cap hits: 0
+Shots that differ from golden: 0 / 10000
+PASS: FPGA output vs golden
+### surf_z_d17_p0.005_n10000
+Starting QEC FPGA Host Application...
+Case big/surf_z_d17_p0.005_n10000: 4896 detectors, 26398 edges, 10000 shots
+Connected to device: xilinx_u280_gen3x16_xdma_base_1
+Loading bitstream: /users/sohamb1/qec/xclbin/v9c_big.xclbin
+Running the decoder kernel...
+Kernel time: 1.94318e+06 us for 10000 shots (194.318 us/shot, includes kernel launch)
+Max growth iterations: 40
+Total work: 2.14093e+08 inner-loop iterations (110.176 per us; compare with the clock rate)
+Per shot, counted on the card: defects=406.541 members=1625.93 frontier=1625.93 apply=14972.9 merges=403.656 relabel=506.51 compact=1088.22 peel_scan=1731.77 peel_walk=517.918 cleanup=3164.92
+Invalid corrections: 0, cap hits: 0
+Shots that differ from golden: 0 / 10000
+PASS: FPGA output vs golden
+### surf_z_d17_p0.01_n10000
+Starting QEC FPGA Host Application...
+Case big/surf_z_d17_p0.01_n10000: 4896 detectors, 26398 edges, 10000 shots
+Connected to device: xilinx_u280_gen3x16_xdma_base_1
+Loading bitstream: /users/sohamb1/qec/xclbin/v9c_big.xclbin
+Running the decoder kernel...
+Kernel time: 4.72538e+06 us for 10000 shots (472.538 us/shot, includes kernel launch)
+Max growth iterations: 45
+Total work: 5.22447e+08 inner-loop iterations (110.562 per us; compare with the clock rate)
+Per shot, counted on the card: defects=745.465 members=4550.53 frontier=4550.53 apply=38743.5 merges=1142.58 relabel=1801.59 compact=2307.75 peel_scan=4206.25 peel_walk=1175.63 cleanup=6443.41
+Invalid corrections: 0, cap hits: 0
+Shots that differ from golden: 0 / 10000
+PASS: FPGA output vs golden
+### surf_z_cc_d11_p0.001_n100000
+Starting QEC FPGA Host Application...
+Case cc/surf_z_cc_d11_p0.001_n100000: 1320 detectors, 6718 edges, 100000 shots
+Connected to device: xilinx_u280_gen3x16_xdma_base_1
+Loading bitstream: /users/sohamb1/qec/xclbin/v9c_big.xclbin
+Running the decoder kernel...
+Kernel time: 744461 us for 100000 shots (7.44461 us/shot, includes kernel launch)
+Max growth iterations: 19
+Total work: 6.22305e+07 inner-loop iterations (83.5913 per us; compare with the clock rate)
+Per shot, counted on the card: defects=16.0608 members=36.3383 frontier=36.3383 apply=344.277 merges=9.53567 relabel=9.69685 compact=34.9795 peel_scan=52.7191 peel_walk=17.587 cleanup=106.241
+Invalid corrections: 0, cap hits: 0
+Shots that differ from golden: 0 / 100000
+PASS: FPGA output vs golden
+### surf_z_cc_d13_p0.001_n100000
+Starting QEC FPGA Host Application...
+Case cc/surf_z_cc_d13_p0.001_n100000: 2184 detectors, 11398 edges, 100000 shots
+Connected to device: xilinx_u280_gen3x16_xdma_base_1
+Loading bitstream: /users/sohamb1/qec/xclbin/v9c_big.xclbin
+Running the decoder kernel...
+Kernel time: 1.20987e+06 us for 100000 shots (12.0987 us/shot, includes kernel launch)
+Max growth iterations: 17
+Total work: 1.0826e+08 inner-loop iterations (89.481 per us; compare with the clock rate)
+Per shot, counted on the card: defects=27.2045 members=63.9236 frontier=63.9236 apply=622.066 merges=15.948 relabel=16.2429 compact=61.5973 peel_scan=88.1631 peel_walk=29.0626 cleanup=182.889
+Invalid corrections: 0, cap hits: 0
+Shots that differ from golden: 0 / 100000
+PASS: FPGA output vs golden
+### surf_z_cc_d15_p0.001_n100000
+Starting QEC FPGA Host Application...
+Case cc/surf_z_cc_d15_p0.001_n100000: 3360 detectors, 17862 edges, 100000 shots
+Connected to device: xilinx_u280_gen3x16_xdma_base_1
+Loading bitstream: /users/sohamb1/qec/xclbin/v9c_big.xclbin
+Running the decoder kernel...
+Kernel time: 1.8342e+06 us for 100000 shots (18.342 us/shot, includes kernel launch)
+Max growth iterations: 18
+Total work: 1.71355e+08 inner-loop iterations (93.4222 per us; compare with the clock rate)
+Per shot, counted on the card: defects=42.4545 members=101.367 frontier=101.367 apply=1006.61 merges=24.7877 relabel=25.2892 compact=97.4853 peel_scan=136.886 peel_walk=44.8561 cleanup=289.395
+Invalid corrections: 0, cap hits: 0
+Shots that differ from golden: 0 / 100000
+PASS: FPGA output vs golden
+### surf_z_cc_d17_p0.001_n100000
+Starting QEC FPGA Host Application...
+Case cc/surf_z_cc_d17_p0.001_n100000: 4896 detectors, 26398 edges, 100000 shots
+Connected to device: xilinx_u280_gen3x16_xdma_base_1
+Loading bitstream: /users/sohamb1/qec/xclbin/v9c_big.xclbin
+Running the decoder kernel...
+Kernel time: 2.64961e+06 us for 100000 shots (26.4961 us/shot, includes kernel launch)
+Max growth iterations: 21
+Total work: 2.54352e+08 inner-loop iterations (95.996 per us; compare with the clock rate)
+Per shot, counted on the card: defects=62.7034 members=149.961 frontier=149.961 apply=1511.94 merges=36.4068 relabel=37.1677 compact=144.157 peel_scan=201.27 peel_walk=65.7533 cleanup=431.454
+Invalid corrections: 0, cap hits: 0
+Shots that differ from golden: 0 / 100000
+PASS: FPGA output vs golden

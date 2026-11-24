@@ -1,0 +1,9 @@
+# toy code-capacity repetition code d=5, all weights 1
+# header: num_detectors num_observables num_edges
+# edges:  u v weight obs_mask   (v = -1 is the boundary)
+4 1 5
+0 -1 1 1
+0 1 1 0
+1 2 1 0
+2 3 1 0
+3 -1 1 0
