@@ -1,0 +1,481 @@
+### rep_d11_p0.001_n10000
+Starting QEC FPGA Host Application...
+Case sweep/rep_d11_p0.001_n10000: 120 detectors, 341 edges, 10000 shots
+Connected to device: xilinx_u280_gen3x16_xdma_base_1
+Loading bitstream: build/qec_decoder_v2.xclbin
+Running the decoder kernel...
+Kernel time: 13450.1 us for 10000 shots (1.34501 us/shot, includes kernel launch)
+Max growth iterations: 6
+Total work: 550189 inner-loop iterations (40.906 per us; compare with the clock rate)
+Invalid corrections: 0, cap hits: 0
+Shots that differ from golden: 0 / 10000
+PASS: FPGA output vs golden
+### rep_d11_p0.003_n10000
+Starting QEC FPGA Host Application...
+Case sweep/rep_d11_p0.003_n10000: 120 detectors, 341 edges, 10000 shots
+Connected to device: xilinx_u280_gen3x16_xdma_base_1
+Loading bitstream: build/qec_decoder_v2.xclbin
+Running the decoder kernel...
+Kernel time: 29946.2 us for 10000 shots (2.99462 us/shot, includes kernel launch)
+Max growth iterations: 7
+Total work: 1.56482e+06 inner-loop iterations (52.2544 per us; compare with the clock rate)
+Invalid corrections: 0, cap hits: 0
+Shots that differ from golden: 0 / 10000
+PASS: FPGA output vs golden
+### rep_d11_p0.005_n10000
+Starting QEC FPGA Host Application...
+Case sweep/rep_d11_p0.005_n10000: 120 detectors, 341 edges, 10000 shots
+Connected to device: xilinx_u280_gen3x16_xdma_base_1
+Loading bitstream: build/qec_decoder_v2.xclbin
+Running the decoder kernel...
+Kernel time: 45704.1 us for 10000 shots (4.57041 us/shot, includes kernel launch)
+Max growth iterations: 9
+Total work: 2.47064e+06 inner-loop iterations (54.0573 per us; compare with the clock rate)
+Invalid corrections: 0, cap hits: 0
+Shots that differ from golden: 0 / 10000
+PASS: FPGA output vs golden
+### rep_d11_p0.01_n10000
+Starting QEC FPGA Host Application...
+Case sweep/rep_d11_p0.01_n10000: 120 detectors, 341 edges, 10000 shots
+Connected to device: xilinx_u280_gen3x16_xdma_base_1
+Loading bitstream: build/qec_decoder_v2.xclbin
+Running the decoder kernel...
+Kernel time: 101813 us for 10000 shots (10.1813 us/shot, includes kernel launch)
+Max growth iterations: 23
+Total work: 5.21188e+06 inner-loop iterations (51.1906 per us; compare with the clock rate)
+Invalid corrections: 0, cap hits: 0
+Shots that differ from golden: 0 / 10000
+PASS: FPGA output vs golden
+### rep_d3_p0.001_n10000
+Starting QEC FPGA Host Application...
+Case sweep/rep_d3_p0.001_n10000: 8 detectors, 21 edges, 10000 shots
+Connected to device: xilinx_u280_gen3x16_xdma_base_1
+Loading bitstream: build/qec_decoder_v2.xclbin
+Running the decoder kernel...
+Kernel time: 5796.72 us for 10000 shots (0.579672 us/shot, includes kernel launch)
+Max growth iterations: 4
+Total work: 41704 inner-loop iterations (7.19442 per us; compare with the clock rate)
+Invalid corrections: 0, cap hits: 0
+Shots that differ from golden: 0 / 10000
+PASS: FPGA output vs golden
+### rep_d3_p0.003_n10000
+Starting QEC FPGA Host Application...
+Case sweep/rep_d3_p0.003_n10000: 8 detectors, 21 edges, 10000 shots
+Connected to device: xilinx_u280_gen3x16_xdma_base_1
+Loading bitstream: build/qec_decoder_v2.xclbin
+Running the decoder kernel...
+Kernel time: 6646.23 us for 10000 shots (0.664623 us/shot, includes kernel launch)
+Max growth iterations: 4
+Total work: 95102 inner-loop iterations (14.3092 per us; compare with the clock rate)
+Invalid corrections: 0, cap hits: 0
+Shots that differ from golden: 0 / 10000
+PASS: FPGA output vs golden
+### rep_d3_p0.005_n10000
+Starting QEC FPGA Host Application...
+Case sweep/rep_d3_p0.005_n10000: 8 detectors, 21 edges, 10000 shots
+Connected to device: xilinx_u280_gen3x16_xdma_base_1
+Loading bitstream: build/qec_decoder_v2.xclbin
+Running the decoder kernel...
+Kernel time: 7411.45 us for 10000 shots (0.741145 us/shot, includes kernel launch)
+Max growth iterations: 4
+Total work: 147907 inner-loop iterations (19.9565 per us; compare with the clock rate)
+Invalid corrections: 0, cap hits: 0
+Shots that differ from golden: 0 / 10000
+PASS: FPGA output vs golden
+### rep_d3_p0.01_n10000
+Starting QEC FPGA Host Application...
+Case sweep/rep_d3_p0.01_n10000: 8 detectors, 21 edges, 10000 shots
+Connected to device: xilinx_u280_gen3x16_xdma_base_1
+Loading bitstream: build/qec_decoder_v2.xclbin
+Running the decoder kernel...
+Kernel time: 9190.68 us for 10000 shots (0.919068 us/shot, includes kernel launch)
+Max growth iterations: 4
+Total work: 264239 inner-loop iterations (28.7508 per us; compare with the clock rate)
+Invalid corrections: 0, cap hits: 0
+Shots that differ from golden: 0 / 10000
+PASS: FPGA output vs golden
+### rep_d5_p0.001_n10000
+Starting QEC FPGA Host Application...
+Case sweep/rep_d5_p0.001_n10000: 24 detectors, 65 edges, 10000 shots
+Connected to device: xilinx_u280_gen3x16_xdma_base_1
+Loading bitstream: build/qec_decoder_v2.xclbin
+Running the decoder kernel...
+Kernel time: 6651.53 us for 10000 shots (0.665153 us/shot, includes kernel launch)
+Max growth iterations: 4
+Total work: 95918 inner-loop iterations (14.4204 per us; compare with the clock rate)
+Invalid corrections: 0, cap hits: 0
+Shots that differ from golden: 0 / 10000
+PASS: FPGA output vs golden
+### rep_d5_p0.003_n10000
+Starting QEC FPGA Host Application...
+Case sweep/rep_d5_p0.003_n10000: 24 detectors, 65 edges, 10000 shots
+Connected to device: xilinx_u280_gen3x16_xdma_base_1
+Loading bitstream: build/qec_decoder_v2.xclbin
+Running the decoder kernel...
+Kernel time: 9556.43 us for 10000 shots (0.955643 us/shot, includes kernel launch)
+Max growth iterations: 6
+Total work: 277082 inner-loop iterations (28.9943 per us; compare with the clock rate)
+Invalid corrections: 0, cap hits: 0
+Shots that differ from golden: 0 / 10000
+PASS: FPGA output vs golden
+### rep_d5_p0.005_n10000
+Starting QEC FPGA Host Application...
+Case sweep/rep_d5_p0.005_n10000: 24 detectors, 65 edges, 10000 shots
+Connected to device: xilinx_u280_gen3x16_xdma_base_1
+Loading bitstream: build/qec_decoder_v2.xclbin
+Running the decoder kernel...
+Kernel time: 12063.4 us for 10000 shots (1.20634 us/shot, includes kernel launch)
+Max growth iterations: 7
+Total work: 431309 inner-loop iterations (35.7536 per us; compare with the clock rate)
+Invalid corrections: 0, cap hits: 0
+Shots that differ from golden: 0 / 10000
+PASS: FPGA output vs golden
+### rep_d5_p0.01_n10000
+Starting QEC FPGA Host Application...
+Case sweep/rep_d5_p0.01_n10000: 24 detectors, 65 edges, 10000 shots
+Connected to device: xilinx_u280_gen3x16_xdma_base_1
+Loading bitstream: build/qec_decoder_v2.xclbin
+Running the decoder kernel...
+Kernel time: 19878.3 us for 10000 shots (1.98783 us/shot, includes kernel launch)
+Max growth iterations: 10
+Total work: 851224 inner-loop iterations (42.8217 per us; compare with the clock rate)
+Invalid corrections: 0, cap hits: 0
+Shots that differ from golden: 0 / 10000
+PASS: FPGA output vs golden
+### rep_d7_p0.001_n10000
+Starting QEC FPGA Host Application...
+Case sweep/rep_d7_p0.001_n10000: 48 detectors, 133 edges, 10000 shots
+Connected to device: xilinx_u280_gen3x16_xdma_base_1
+Loading bitstream: build/qec_decoder_v2.xclbin
+Running the decoder kernel...
+Kernel time: 8303.27 us for 10000 shots (0.830327 us/shot, includes kernel launch)
+Max growth iterations: 6
+Total work: 207834 inner-loop iterations (25.0304 per us; compare with the clock rate)
+Invalid corrections: 0, cap hits: 0
+Shots that differ from golden: 0 / 10000
+PASS: FPGA output vs golden
+### rep_d7_p0.003_n10000
+Starting QEC FPGA Host Application...
+Case sweep/rep_d7_p0.003_n10000: 48 detectors, 133 edges, 10000 shots
+Connected to device: xilinx_u280_gen3x16_xdma_base_1
+Loading bitstream: build/qec_decoder_v2.xclbin
+Running the decoder kernel...
+Kernel time: 14395.5 us for 10000 shots (1.43955 us/shot, includes kernel launch)
+Max growth iterations: 7
+Total work: 587107 inner-loop iterations (40.784 per us; compare with the clock rate)
+Invalid corrections: 0, cap hits: 0
+Shots that differ from golden: 0 / 10000
+PASS: FPGA output vs golden
+### rep_d7_p0.005_n10000
+Starting QEC FPGA Host Application...
+Case sweep/rep_d7_p0.005_n10000: 48 detectors, 133 edges, 10000 shots
+Connected to device: xilinx_u280_gen3x16_xdma_base_1
+Loading bitstream: build/qec_decoder_v2.xclbin
+Running the decoder kernel...
+Kernel time: 19838.4 us for 10000 shots (1.98384 us/shot, includes kernel launch)
+Max growth iterations: 8
+Total work: 916751 inner-loop iterations (46.211 per us; compare with the clock rate)
+Invalid corrections: 0, cap hits: 0
+Shots that differ from golden: 0 / 10000
+PASS: FPGA output vs golden
+### rep_d7_p0.01_n10000
+Starting QEC FPGA Host Application...
+Case sweep/rep_d7_p0.01_n10000: 48 detectors, 133 edges, 10000 shots
+Connected to device: xilinx_u280_gen3x16_xdma_base_1
+Loading bitstream: build/qec_decoder_v2.xclbin
+Running the decoder kernel...
+Kernel time: 38016 us for 10000 shots (3.8016 us/shot, includes kernel launch)
+Max growth iterations: 12
+Total work: 1.85637e+06 inner-loop iterations (48.8312 per us; compare with the clock rate)
+Invalid corrections: 0, cap hits: 0
+Shots that differ from golden: 0 / 10000
+PASS: FPGA output vs golden
+### rep_d9_p0.001_n10000
+Starting QEC FPGA Host Application...
+Case sweep/rep_d9_p0.001_n10000: 80 detectors, 225 edges, 10000 shots
+Connected to device: xilinx_u280_gen3x16_xdma_base_1
+Loading bitstream: build/qec_decoder_v2.xclbin
+Running the decoder kernel...
+Kernel time: 10632.8 us for 10000 shots (1.06328 us/shot, includes kernel launch)
+Max growth iterations: 4
+Total work: 363167 inner-loop iterations (34.1554 per us; compare with the clock rate)
+Invalid corrections: 0, cap hits: 0
+Shots that differ from golden: 0 / 10000
+PASS: FPGA output vs golden
+### rep_d9_p0.003_n10000
+Starting QEC FPGA Host Application...
+Case sweep/rep_d9_p0.003_n10000: 80 detectors, 225 edges, 10000 shots
+Connected to device: xilinx_u280_gen3x16_xdma_base_1
+Loading bitstream: build/qec_decoder_v2.xclbin
+Running the decoder kernel...
+Kernel time: 21416.2 us for 10000 shots (2.14162 us/shot, includes kernel launch)
+Max growth iterations: 13
+Total work: 1.02772e+06 inner-loop iterations (47.988 per us; compare with the clock rate)
+Invalid corrections: 0, cap hits: 0
+Shots that differ from golden: 0 / 10000
+PASS: FPGA output vs golden
+### rep_d9_p0.005_n10000
+Starting QEC FPGA Host Application...
+Case sweep/rep_d9_p0.005_n10000: 80 detectors, 225 edges, 10000 shots
+Connected to device: xilinx_u280_gen3x16_xdma_base_1
+Loading bitstream: build/qec_decoder_v2.xclbin
+Running the decoder kernel...
+Kernel time: 31153.1 us for 10000 shots (3.11531 us/shot, includes kernel launch)
+Max growth iterations: 10
+Total work: 1.59683e+06 inner-loop iterations (51.2574 per us; compare with the clock rate)
+Invalid corrections: 0, cap hits: 0
+Shots that differ from golden: 0 / 10000
+PASS: FPGA output vs golden
+### rep_d9_p0.01_n10000
+Starting QEC FPGA Host Application...
+Case sweep/rep_d9_p0.01_n10000: 80 detectors, 225 edges, 10000 shots
+Connected to device: xilinx_u280_gen3x16_xdma_base_1
+Loading bitstream: build/qec_decoder_v2.xclbin
+Running the decoder kernel...
+Kernel time: 65396.6 us for 10000 shots (6.53966 us/shot, includes kernel launch)
+Max growth iterations: 19
+Total work: 3.31083e+06 inner-loop iterations (50.6269 per us; compare with the clock rate)
+Invalid corrections: 0, cap hits: 0
+Shots that differ from golden: 0 / 10000
+PASS: FPGA output vs golden
+### surf_z_d11_p0.001_n10000
+Starting QEC FPGA Host Application...
+Case sweep/surf_z_d11_p0.001_n10000: 1320 detectors, 6718 edges, 10000 shots
+Connected to device: xilinx_u280_gen3x16_xdma_base_1
+Loading bitstream: build/qec_decoder_v2.xclbin
+Running the decoder kernel...
+Kernel time: 489959 us for 10000 shots (48.9959 us/shot, includes kernel launch)
+Max growth iterations: 21
+Total work: 2.73207e+07 inner-loop iterations (55.7613 per us; compare with the clock rate)
+Invalid corrections: 0, cap hits: 0
+Shots that differ from golden: 0 / 10000
+PASS: FPGA output vs golden
+### surf_z_d11_p0.003_n10000
+Starting QEC FPGA Host Application...
+Case sweep/surf_z_d11_p0.003_n10000: 1320 detectors, 6718 edges, 10000 shots
+Connected to device: xilinx_u280_gen3x16_xdma_base_1
+Loading bitstream: build/qec_decoder_v2.xclbin
+Running the decoder kernel...
+Kernel time: 1.53704e+06 us for 10000 shots (153.704 us/shot, includes kernel launch)
+Max growth iterations: 29
+Total work: 7.75699e+07 inner-loop iterations (50.4669 per us; compare with the clock rate)
+Invalid corrections: 0, cap hits: 0
+Shots that differ from golden: 0 / 10000
+PASS: FPGA output vs golden
+### surf_z_d11_p0.005_n10000
+Starting QEC FPGA Host Application...
+Case sweep/surf_z_d11_p0.005_n10000: 1320 detectors, 6718 edges, 10000 shots
+Connected to device: xilinx_u280_gen3x16_xdma_base_1
+Loading bitstream: build/qec_decoder_v2.xclbin
+Running the decoder kernel...
+Kernel time: 2.75499e+06 us for 10000 shots (275.499 us/shot, includes kernel launch)
+Max growth iterations: 28
+Total work: 1.32215e+08 inner-loop iterations (47.991 per us; compare with the clock rate)
+Invalid corrections: 0, cap hits: 0
+Shots that differ from golden: 0 / 10000
+PASS: FPGA output vs golden
+### surf_z_d11_p0.01_n10000
+Starting QEC FPGA Host Application...
+Case sweep/surf_z_d11_p0.01_n10000: 1320 detectors, 6718 edges, 10000 shots
+Connected to device: xilinx_u280_gen3x16_xdma_base_1
+Loading bitstream: build/qec_decoder_v2.xclbin
+Running the decoder kernel...
+Kernel time: 6.73877e+06 us for 10000 shots (673.877 us/shot, includes kernel launch)
+Max growth iterations: 32
+Total work: 3.01235e+08 inner-loop iterations (44.7018 per us; compare with the clock rate)
+Invalid corrections: 0, cap hits: 0
+Shots that differ from golden: 0 / 10000
+PASS: FPGA output vs golden
+### surf_z_d3_p0.001_n10000
+Starting QEC FPGA Host Application...
+Case sweep/surf_z_d3_p0.001_n10000: 24 detectors, 78 edges, 10000 shots
+Connected to device: xilinx_u280_gen3x16_xdma_base_1
+Loading bitstream: build/qec_decoder_v2.xclbin
+Running the decoder kernel...
+Kernel time: 7902.3 us for 10000 shots (0.79023 us/shot, includes kernel launch)
+Max growth iterations: 4
+Total work: 183388 inner-loop iterations (23.2069 per us; compare with the clock rate)
+Invalid corrections: 0, cap hits: 0
+Shots that differ from golden: 0 / 10000
+PASS: FPGA output vs golden
+### surf_z_d3_p0.003_n10000
+Starting QEC FPGA Host Application...
+Case sweep/surf_z_d3_p0.003_n10000: 24 detectors, 78 edges, 10000 shots
+Connected to device: xilinx_u280_gen3x16_xdma_base_1
+Loading bitstream: build/qec_decoder_v2.xclbin
+Running the decoder kernel...
+Kernel time: 13334.2 us for 10000 shots (1.33342 us/shot, includes kernel launch)
+Max growth iterations: 6
+Total work: 520546 inner-loop iterations (39.0383 per us; compare with the clock rate)
+Invalid corrections: 0, cap hits: 0
+Shots that differ from golden: 0 / 10000
+PASS: FPGA output vs golden
+### surf_z_d3_p0.005_n10000
+Starting QEC FPGA Host Application...
+Case sweep/surf_z_d3_p0.005_n10000: 24 detectors, 78 edges, 10000 shots
+Connected to device: xilinx_u280_gen3x16_xdma_base_1
+Loading bitstream: build/qec_decoder_v2.xclbin
+Running the decoder kernel...
+Kernel time: 18648.4 us for 10000 shots (1.86484 us/shot, includes kernel launch)
+Max growth iterations: 8
+Total work: 822086 inner-loop iterations (44.0834 per us; compare with the clock rate)
+Invalid corrections: 0, cap hits: 0
+Shots that differ from golden: 0 / 10000
+PASS: FPGA output vs golden
+### surf_z_d3_p0.01_n10000
+Starting QEC FPGA Host Application...
+Case sweep/surf_z_d3_p0.01_n10000: 24 detectors, 78 edges, 10000 shots
+Connected to device: xilinx_u280_gen3x16_xdma_base_1
+Loading bitstream: build/qec_decoder_v2.xclbin
+Running the decoder kernel...
+Kernel time: 32736 us for 10000 shots (3.2736 us/shot, includes kernel launch)
+Max growth iterations: 7
+Total work: 1.54705e+06 inner-loop iterations (47.2583 per us; compare with the clock rate)
+Invalid corrections: 0, cap hits: 0
+Shots that differ from golden: 0 / 10000
+PASS: FPGA output vs golden
+### surf_z_d5_p0.001_n10000
+Starting QEC FPGA Host Application...
+Case sweep/surf_z_d5_p0.001_n10000: 120 detectors, 502 edges, 10000 shots
+Connected to device: xilinx_u280_gen3x16_xdma_base_1
+Loading bitstream: build/qec_decoder_v2.xclbin
+Running the decoder kernel...
+Kernel time: 27704.4 us for 10000 shots (2.77044 us/shot, includes kernel launch)
+Max growth iterations: 9
+Total work: 1.45617e+06 inner-loop iterations (52.5611 per us; compare with the clock rate)
+Invalid corrections: 0, cap hits: 0
+Shots that differ from golden: 0 / 10000
+PASS: FPGA output vs golden
+### surf_z_d5_p0.003_n10000
+Starting QEC FPGA Host Application...
+Case sweep/surf_z_d5_p0.003_n10000: 120 detectors, 502 edges, 10000 shots
+Connected to device: xilinx_u280_gen3x16_xdma_base_1
+Loading bitstream: build/qec_decoder_v2.xclbin
+Running the decoder kernel...
+Kernel time: 83984.7 us for 10000 shots (8.39847 us/shot, includes kernel launch)
+Max growth iterations: 16
+Total work: 4.47137e+06 inner-loop iterations (53.2403 per us; compare with the clock rate)
+Invalid corrections: 0, cap hits: 0
+Shots that differ from golden: 0 / 10000
+PASS: FPGA output vs golden
+### surf_z_d5_p0.005_n10000
+Starting QEC FPGA Host Application...
+Case sweep/surf_z_d5_p0.005_n10000: 120 detectors, 502 edges, 10000 shots
+Connected to device: xilinx_u280_gen3x16_xdma_base_1
+Loading bitstream: build/qec_decoder_v2.xclbin
+Running the decoder kernel...
+Kernel time: 149763 us for 10000 shots (14.9763 us/shot, includes kernel launch)
+Max growth iterations: 15
+Total work: 7.61571e+06 inner-loop iterations (50.8517 per us; compare with the clock rate)
+Invalid corrections: 0, cap hits: 0
+Shots that differ from golden: 0 / 10000
+PASS: FPGA output vs golden
+### surf_z_d5_p0.01_n10000
+Starting QEC FPGA Host Application...
+Case sweep/surf_z_d5_p0.01_n10000: 120 detectors, 502 edges, 10000 shots
+Connected to device: xilinx_u280_gen3x16_xdma_base_1
+Loading bitstream: build/qec_decoder_v2.xclbin
+Running the decoder kernel...
+Kernel time: 331198 us for 10000 shots (33.1198 us/shot, includes kernel launch)
+Max growth iterations: 17
+Total work: 1.55495e+07 inner-loop iterations (46.9493 per us; compare with the clock rate)
+Invalid corrections: 0, cap hits: 0
+Shots that differ from golden: 0 / 10000
+PASS: FPGA output vs golden
+### surf_z_d7_p0.001_n10000
+Starting QEC FPGA Host Application...
+Case sweep/surf_z_d7_p0.001_n10000: 336 detectors, 1558 edges, 10000 shots
+Connected to device: xilinx_u280_gen3x16_xdma_base_1
+Loading bitstream: build/qec_decoder_v2.xclbin
+Running the decoder kernel...
+Kernel time: 91748.4 us for 10000 shots (9.17484 us/shot, includes kernel launch)
+Max growth iterations: 12
+Total work: 5.34811e+06 inner-loop iterations (58.291 per us; compare with the clock rate)
+Invalid corrections: 0, cap hits: 0
+Shots that differ from golden: 0 / 10000
+PASS: FPGA output vs golden
+### surf_z_d7_p0.003_n10000
+Starting QEC FPGA Host Application...
+Case sweep/surf_z_d7_p0.003_n10000: 336 detectors, 1558 edges, 10000 shots
+Connected to device: xilinx_u280_gen3x16_xdma_base_1
+Loading bitstream: build/qec_decoder_v2.xclbin
+Running the decoder kernel...
+Kernel time: 320445 us for 10000 shots (32.0445 us/shot, includes kernel launch)
+Max growth iterations: 21
+Total work: 1.66867e+07 inner-loop iterations (52.0736 per us; compare with the clock rate)
+Invalid corrections: 0, cap hits: 0
+Shots that differ from golden: 0 / 10000
+PASS: FPGA output vs golden
+### surf_z_d7_p0.005_n10000
+Starting QEC FPGA Host Application...
+Case sweep/surf_z_d7_p0.005_n10000: 336 detectors, 1558 edges, 10000 shots
+Connected to device: xilinx_u280_gen3x16_xdma_base_1
+Loading bitstream: build/qec_decoder_v2.xclbin
+Running the decoder kernel...
+Kernel time: 565270 us for 10000 shots (56.527 us/shot, includes kernel launch)
+Max growth iterations: 23
+Total work: 2.78475e+07 inner-loop iterations (49.264 per us; compare with the clock rate)
+Invalid corrections: 0, cap hits: 0
+Shots that differ from golden: 0 / 10000
+PASS: FPGA output vs golden
+### surf_z_d7_p0.01_n10000
+Starting QEC FPGA Host Application...
+Case sweep/surf_z_d7_p0.01_n10000: 336 detectors, 1558 edges, 10000 shots
+Connected to device: xilinx_u280_gen3x16_xdma_base_1
+Loading bitstream: build/qec_decoder_v2.xclbin
+Running the decoder kernel...
+Kernel time: 1.29339e+06 us for 10000 shots (129.339 us/shot, includes kernel launch)
+Max growth iterations: 25
+Total work: 5.88683e+07 inner-loop iterations (45.5149 per us; compare with the clock rate)
+Invalid corrections: 0, cap hits: 0
+Shots that differ from golden: 0 / 10000
+PASS: FPGA output vs golden
+### surf_z_d9_p0.001_n10000
+Starting QEC FPGA Host Application...
+Case sweep/surf_z_d9_p0.001_n10000: 720 detectors, 3534 edges, 10000 shots
+Connected to device: xilinx_u280_gen3x16_xdma_base_1
+Loading bitstream: build/qec_decoder_v2.xclbin
+Running the decoder kernel...
+Kernel time: 235448 us for 10000 shots (23.5448 us/shot, includes kernel launch)
+Max growth iterations: 16
+Total work: 1.34592e+07 inner-loop iterations (57.1641 per us; compare with the clock rate)
+Invalid corrections: 0, cap hits: 0
+Shots that differ from golden: 0 / 10000
+PASS: FPGA output vs golden
+### surf_z_d9_p0.003_n10000
+Starting QEC FPGA Host Application...
+Case sweep/surf_z_d9_p0.003_n10000: 720 detectors, 3534 edges, 10000 shots
+Connected to device: xilinx_u280_gen3x16_xdma_base_1
+Loading bitstream: build/qec_decoder_v2.xclbin
+Running the decoder kernel...
+Kernel time: 782132 us for 10000 shots (78.2132 us/shot, includes kernel launch)
+Max growth iterations: 25
+Total work: 3.98942e+07 inner-loop iterations (51.007 per us; compare with the clock rate)
+Invalid corrections: 0, cap hits: 0
+Shots that differ from golden: 0 / 10000
+PASS: FPGA output vs golden
+### surf_z_d9_p0.005_n10000
+Starting QEC FPGA Host Application...
+Case sweep/surf_z_d9_p0.005_n10000: 720 detectors, 3534 edges, 10000 shots
+Connected to device: xilinx_u280_gen3x16_xdma_base_1
+Loading bitstream: build/qec_decoder_v2.xclbin
+Running the decoder kernel...
+Kernel time: 1.38848e+06 us for 10000 shots (138.848 us/shot, includes kernel launch)
+Max growth iterations: 27
+Total work: 6.72784e+07 inner-loop iterations (48.4548 per us; compare with the clock rate)
+Invalid corrections: 0, cap hits: 0
+Shots that differ from golden: 0 / 10000
+PASS: FPGA output vs golden
+### surf_z_d9_p0.01_n10000
+Starting QEC FPGA Host Application...
+Case sweep/surf_z_d9_p0.01_n10000: 720 detectors, 3534 edges, 10000 shots
+Connected to device: xilinx_u280_gen3x16_xdma_base_1
+Loading bitstream: build/qec_decoder_v2.xclbin
+Running the decoder kernel...
+Kernel time: 3.2592e+06 us for 10000 shots (325.92 us/shot, includes kernel launch)
+Max growth iterations: 27
+Total work: 1.46765e+08 inner-loop iterations (45.0311 per us; compare with the clock rate)
+Invalid corrections: 0, cap hits: 0
+Shots that differ from golden: 0 / 10000
+PASS: FPGA output vs golden
+SWEEP_DONE

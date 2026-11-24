@@ -1,0 +1,13 @@
+### surf_z_cc_d11_p0.001_n100000
+Starting QEC FPGA Host Application...
+Case cc/surf_z_cc_d11_p0.001_n100000: 1320 detectors, 6718 edges, 100000 shots
+Connected to device: xilinx_u280_gen3x16_xdma_base_1
+Loading bitstream: /users/sohamb1/qec/xclbin/v9c_bit.xclbin
+Running the decoder kernel...
+Kernel time: 539809 us for 100000 shots (5.39809 us/shot, includes kernel launch)
+Max growth iterations: 19
+Total work: 6.22305e+07 inner-loop iterations (115.282 per us; compare with the clock rate)
+Per shot, counted on the card: defects=16.0608 members=36.3383 frontier=36.3383 apply=344.277 merges=9.53567 relabel=9.69685 compact=34.9795 peel_scan=52.7191 peel_walk=17.587 cleanup=106.241
+Invalid corrections: 0, cap hits: 0
+Shots that differ from golden: 0 / 100000
+PASS: FPGA output vs golden

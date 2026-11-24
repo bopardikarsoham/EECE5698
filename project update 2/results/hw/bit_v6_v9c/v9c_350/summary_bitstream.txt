@@ -1,0 +1,6 @@
+== v9c_350  350 MHz  Sun Nov 22 12:51:26 AM MST 2026
+-rw-r--r-- 1 sohamb1 octfpga-PG0 51750738 Nov 22 00:51 build/qec_decoder.xclbin
+-- routed timing (WNS first)
+     -0.012       -0.012                      1               502293        0.006        0.000                      0               500498        0.000        0.000                       0                205796  
+-- routed kernel utilization
+|    qec_decoder_1    |   21930 [  1.86%] |   2271 [  0.38%] |   19230 [  0.79%] |  208 [ 11.43%] |   1 [  0.10%] |    6 [  0.07%] |

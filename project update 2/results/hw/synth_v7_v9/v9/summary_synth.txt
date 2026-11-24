@@ -1,0 +1,44 @@
+== v9  clock target 3.33 ns  Sat Nov 21 06:53:24 PM MST 2026
+-- loops (II, depth)
+Target II = NA, Final II = 4, Depth = 77, loop 'load_edges'
+Target II = NA, Final II = 1, Depth = 1, loop 'VITIS_LOOP_65_1'
+Target II = NA, Final II = 8, Depth = 10, loop 'VITIS_LOOP_66_2'
+Target II = NA, Final II = 1, Depth = 4, loop 'VITIS_LOOP_70_3'
+Target II = NA, Final II = 1, Depth = 3, loop 'VITIS_LOOP_72_4'
+Target II = NA, Final II = 8, Depth = 10, loop 'VITIS_LOOP_73_5'
+Target II = NA, Final II = 2, Depth = 3, loop 'VITIS_LOOP_157_1'
+Target II = NA, Final II = 6, Depth = 13, loop 'VITIS_LOOP_159_2'
+Target II = NA, Final II = 1, Depth = 2, loop 'VITIS_LOOP_178_4'
+Target II = NA, Final II = 1, Depth = 1, loop 'VITIS_LOOP_185_5'
+Target II = NA, Final II = 12, Depth = 82, loop 'VITIS_LOOP_85_1'
+Target II = 1, Final II = 1, Depth = 3, loop 'read_dets'
+Target II = 1, Final II = 1, Depth = 2, loop 'unpack_bits'
+Target II = NA, Final II = 1, Depth = 3, loop 'VITIS_LOOP_268_1'
+Target II = 1, Final II = 2, Depth = 4, loop 'members'
+Target II = 1, Final II = 1, Depth = 6, loop 'frontier'
+Target II = 1, Final II = 1, Depth = 10, loop 'apply_step'
+Target II = NA, Final II = 1, Depth = 2, loop 'VITIS_LOOP_198_1'
+Target II = 1, Final II = 1, Depth = 5, loop 'VITIS_LOOP_445_9'
+Target II = 1, Final II = 1, Depth = 7, loop 'VITIS_LOOP_453_10'
+Target II = 1, Final II = 1, Depth = 4, loop 'VITIS_LOOP_216_1'
+Target II = 1, Final II = 1, Depth = 6, loop 'VITIS_LOOP_223_2'
+Target II = NA, Final II = 1, Depth = 3, loop 'VITIS_LOOP_238_3'
+Target II = NA, Final II = 4, Depth = 4, loop 'VITIS_LOOP_478_12'
+Target II = NA, Final II = 1, Depth = 3, loop 'VITIS_LOOP_485_13'
+Target II = NA, Final II = 1, Depth = 6, function 'grown_mask'
+Target II = 1, Final II = 2, Depth = 13, loop 'VITIS_LOOP_489_14'
+Target II = NA, Final II = 8, Depth = 12, loop 'peel_search'
+Target II = NA, Final II = 6, Depth = 10, loop 'VITIS_LOOP_544_15'
+Target II = NA, Final II = 1, Depth = 5, loop 'VITIS_LOOP_559_16'
+Target II = 1, Final II = 1, Depth = 3, loop 'write_pred'
+Target II = 1, Final II = 1, Depth = 3, loop 'write_info'
+-- clock estimate
+    |ap_clk  |  3.33 ns|  13.671 ns|     0.90 ns|
+-- resources (BRAM_18K DSP FF LUT URAM)
+|Total                |      381|     6|    21419|    58101|   10|
+-- C/RTL co-simulation (200 d=3 shots, one call)
+kernel_tb: 4 / 4 cases PASS
+kernel_tb: 1 / 1 cases PASS
+kernel_tb: 1 / 1 cases PASS
+INFO: [COSIM 212-1000] *** C/RTL co-simulation finished: PASS ***
+|   Verilog|      Pass|          65545|          65545|          65545|             NA|             NA|             NA|                 65545|

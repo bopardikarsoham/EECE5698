@@ -1,0 +1,42 @@
+== v7  clock target 3.33 ns  Sat Nov 21 06:32:46 PM MST 2026
+-- loops (II, depth)
+Target II = NA, Final II = 4, Depth = 77, loop 'load_edges'
+Target II = NA, Final II = 1, Depth = 1, loop 'VITIS_LOOP_65_1'
+Target II = NA, Final II = 8, Depth = 10, loop 'VITIS_LOOP_66_2'
+Target II = NA, Final II = 1, Depth = 4, loop 'VITIS_LOOP_70_3'
+Target II = NA, Final II = 1, Depth = 3, loop 'VITIS_LOOP_72_4'
+Target II = NA, Final II = 8, Depth = 10, loop 'VITIS_LOOP_73_5'
+Target II = NA, Final II = 2, Depth = 3, loop 'VITIS_LOOP_133_1'
+Target II = NA, Final II = 6, Depth = 13, loop 'VITIS_LOOP_135_2'
+Target II = NA, Final II = 1, Depth = 2, loop 'VITIS_LOOP_154_4'
+Target II = NA, Final II = 1, Depth = 1, loop 'VITIS_LOOP_161_5'
+Target II = NA, Final II = 12, Depth = 82, loop 'VITIS_LOOP_85_1'
+Target II = 1, Final II = 1, Depth = 3, loop 'read_dets'
+Target II = 1, Final II = 1, Depth = 2, loop 'unpack_bits'
+Target II = NA, Final II = 1, Depth = 3, loop 'VITIS_LOOP_230_1'
+Target II = NA, Final II = 1, Depth = 2, loop 'VITIS_LOOP_249_4'
+Target II = 1, Final II = 12, Depth = 56, loop 'frontier'
+Target II = 1, Final II = 1, Depth = 9, loop 'apply_step'
+Target II = NA, Final II = 1, Depth = 2, loop 'VITIS_LOOP_174_1'
+Target II = 1, Final II = 1, Depth = 5, loop 'VITIS_LOOP_337_8'
+Target II = 1, Final II = 1, Depth = 7, loop 'VITIS_LOOP_345_9'
+Target II = 1, Final II = 1, Depth = 6, loop 'VITIS_LOOP_188_1'
+Target II = NA, Final II = 1, Depth = 3, loop 'VITIS_LOOP_205_2'
+Target II = NA, Final II = 2, Depth = 3, loop 'VITIS_LOOP_370_11'
+Target II = NA, Final II = 1, Depth = 3, loop 'VITIS_LOOP_377_12'
+Target II = 1, Final II = 2, Depth = 7, loop 'VITIS_LOOP_381_13'
+Target II = NA, Final II = 7, Depth = 9, loop 'peel_search'
+Target II = NA, Final II = 6, Depth = 10, loop 'VITIS_LOOP_435_15'
+Target II = NA, Final II = 1, Depth = 5, loop 'VITIS_LOOP_450_16'
+Target II = 1, Final II = 1, Depth = 3, loop 'write_pred'
+Target II = 1, Final II = 1, Depth = 3, loop 'write_info'
+-- clock estimate
+    |ap_clk  |  3.33 ns|  2.549 ns|     0.90 ns|
+-- resources (BRAM_18K DSP FF LUT URAM)
+|Total                |      377|    10|    51071|    66103|    7|
+-- C/RTL co-simulation (200 d=3 shots, one call)
+kernel_tb: 4 / 4 cases PASS
+kernel_tb: 1 / 1 cases PASS
+kernel_tb: 1 / 1 cases PASS
+INFO: [COSIM 212-1000] *** C/RTL co-simulation finished: PASS ***
+|   Verilog|      Pass|          88441|          88441|          88441|             NA|             NA|             NA|                 88441|

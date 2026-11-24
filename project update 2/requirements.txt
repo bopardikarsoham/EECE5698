@@ -1,0 +1,5 @@
+# Python packages for data generation and scoring (tested with Python 3.13).
+# Not needed for `make check_all`, which only needs g++ and make.
+numpy==2.5.4
+stim==1.16.0
+pymatching==2.4.0
